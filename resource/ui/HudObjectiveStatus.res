@@ -11,7 +11,7 @@
 		"tall"				"32"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"101"
+		"delta_item_x"			"111" //101
 		"delta_item_start_y"	"5"
 		"delta_item_end_y"		"5"
 		"PositiveColor"			"50 150 50 255"
