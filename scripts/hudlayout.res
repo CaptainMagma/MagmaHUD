@@ -47,9 +47,9 @@
         "wide"  "250"
         "tall"  "32"
         
-        "blue_active_xpos"          "50"
+        "blue_active_xpos"          "45"
     
-        "red_active_xpos"           "150"
+        "red_active_xpos"           "145"
     }   
 
     HudItemEffectMeter
