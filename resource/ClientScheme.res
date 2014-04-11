@@ -678,10 +678,10 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Roboto Medium" [!$OSX] //Trebuchet MS
+				"name"		"Roboto Regular" [!$OSX] //Trebuchet MS
 				"name"		"Helvetica" [$OSX]
 				"tall"		"17" //16
-				//"weight"	"200" //700
+				"weight"	"200" //700
 				"antialias" "1"
 				"additive"	"0"
 			}
