@@ -1326,6 +1326,7 @@ Scheme
 				"tall_hidef"	"24"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
 			}
 		}
 		"CloseCaption_Italic"
@@ -1338,6 +1339,7 @@ Scheme
 				"weight"	"0"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
 			}
 		}
 		"CloseCaption_Bold"
@@ -1349,6 +1351,7 @@ Scheme
 				"tall_hidef"	"24"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
 			}
 		}
 		"CloseCaption_BoldItalic"
@@ -1361,6 +1364,7 @@ Scheme
 				"weight"	"0"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
 			}
 		}
 		"CloseCaption_Small"
@@ -1372,6 +1376,7 @@ Scheme
 				"tall_hidef"	"24"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
 			}
 		}
 		// this is the symbol font
