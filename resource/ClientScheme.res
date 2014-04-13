@@ -207,6 +207,23 @@ Scheme
 		"QualityColorStrange"					"207 106 50 255"
 		"QualityColorCompleted"					"134 80 172 255"
 		"QualityColorHaunted"					"56 243 171 255"
+		"QualityColorCollectors"				"170 0 0 255"
+
+		"QualityColorNormal_GreyedOut"			"44 44 44 255"
+		"QualityColorrarity1_GreyedOut"			"20 29 21 255"
+		"QualityColorrarity2_GreyedOut"			"35 33 19 255"
+		"QualityColorrarity3_GreyedOut"			"51 51 62 255"
+		"QualityColorrarity4_GreyedOut"			"36 20 43 255"
+		"QualityColorVintage_GreyedOut"			"18 25 36 255"
+		"QualityColorUnique_GreyedOut"			"64 54 0  255"
+		"QualityColorCommunity_GreyedOut"		"28 44 19 255"
+		"QualityColorDeveloper_GreyedOut"		"41 4  30  255"
+		"QualityColorSelfMade_GreyedOut"		"28 44 74 255"
+		"QualityColorCustomized_GreyedOut"		"71 98 19 255"
+		"QualityColorStrange_GreyedOut"			"52 27 13 255"
+		"QualityColorCompleted_GreyedOut"		"34 20 43 255"
+		"QualityColorHaunted_GreyedOut"			"14 61 43 255"
+		"QualityColorCollectors_GreyedOut"		"60 0 0 255"
 		
 		"SaleGreen"								"76 107 34 255"
 		
@@ -678,10 +695,10 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Roboto Regular" [!$OSX] //Trebuchet MS
+				"name"		"Roboto Bold" [!$OSX] //Trebuchet MS
 				"name"		"Helvetica" [$OSX]
 				"tall"		"17" //16
-				"weight"	"200" //700
+				//"weight"	"200" //700
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -2400,6 +2417,20 @@ Scheme
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
+			}
+		}
+
+		//crosshair
+
+		"crosshair13outline"
+		{
+			"1"
+			{
+				"name"		"broeselhud Crosshairs"
+				"tall"		"13"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"1"
 			}
 		}
 
@@ -5817,6 +5848,11 @@ Scheme
 		{
 			"font" "resource/DroidSans-Bold.ttf"
 			"name" "Droid Sans Bold"
+		}
+		"22"
+		{
+			"font" "resource/crosshairs.ttf"
+			"name" "broeselhud Crosshairs"
 		}
 	}
 }
