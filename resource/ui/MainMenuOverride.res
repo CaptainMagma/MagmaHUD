@@ -133,7 +133,7 @@
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"
-		"fillcolor"	"15 15 15 200"
+		"fillcolor"	"15 15 15 65" //alpha 200
 		
 		if_halloween_0
 		{
@@ -176,13 +176,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-250"
+		"xpos"			"99999" //c-250
 		"ypos"			"-80"
 		"zpos"			"-99"
 		"wide"			"600"
 		"tall"			"600"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
 	}
 	

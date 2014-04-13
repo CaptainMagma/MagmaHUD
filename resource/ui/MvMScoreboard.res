@@ -60,7 +60,7 @@
 			"font"			"Futura20"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"east"
-			"xpos"			"0"
+			"xpos"			"-20" //0
 			"ypos"			"0"
 			"wide"			"150"
 			"tall"			"50"

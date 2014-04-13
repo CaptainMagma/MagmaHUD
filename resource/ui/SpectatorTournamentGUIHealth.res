@@ -27,7 +27,7 @@
 		"enabled"		"1"
 		"fillcolor"		"30 30 30 255"
 		"scaleImage"	"1"	
-	}		
+	}	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"

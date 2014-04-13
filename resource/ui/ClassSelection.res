@@ -617,6 +617,7 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
+	
 	"LoadoutButtonBackground"
 	{
 		"ControlName"	"ImagePanel"

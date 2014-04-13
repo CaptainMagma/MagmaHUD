@@ -1,5 +1,26 @@
 "Resource/UI/HudPlayerClass.res"
 {
+	//////////////////////// Crosshairs ////////////////////////
+	"Crosshair1"
+	{
+		"controlName"	"CExLabel"
+		"fieldName"		"Crosshair1"
+		"textAlignment"	"center"
+		"zpos"			"20"
+		"enabled"		"1"
+		"visible"		"1"
+
+		"xpos"			"c-22"
+		"ypos"			"c-15"
+		"wide"			"43"
+		"tall"			"31"
+
+		"font"			"crosshair13outline"
+		"labelText"		"a"
+		"fgcolor"		"255 255 255 255"
+	}
+	//////////////////////// Crosshairs end ////////////////////////
+
 	// player class data
 	"HudPlayerClass"
 	{
