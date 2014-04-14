@@ -4139,42 +4139,42 @@ Scheme
 			{
 				"1"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "4 1"
 				}
 				"6"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "5 1"
 				}
 				"7"
 				{
-					"color" "130 130 130 255"
+					"color" "234 234 234 255"
 					"offset" "6 1"
 				}
 				"8"
 				{
-					"color" "130 130 130 255"
+					"color" "234 234 234 255"
 					"offset" "7 1"
 				}
 			}
@@ -4182,42 +4182,42 @@ Scheme
 			{
 				"1"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "4 1"
 				}
 				"6"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "5 1"
 				}
 				"7"
 				{
-					"color" "130 130 130 255"
+					"color" "234 234 234 255"
 					"offset" "6 1"
 				}
 				"8"
 				{
-					"color" "130 130 130 255"
+					"color" "234 234 234 255"
 					"offset" "7 1"
 				}
 			}
@@ -4225,42 +4225,42 @@ Scheme
 			{
 				"1"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "4 1"
 				}
 				"6"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "5 1"
 				}
 				"7"
 				{
-					"color" "130 130 130 255"
+					"color" "234 234 234 255"
 					"offset" "6 1"
 				}
 				"8"
 				{
-					"color" "130 130 130 255"
+					"color" "234 234 234 255"
 					"offset" "7 1"
 				}
 			}
@@ -4268,43 +4268,43 @@ Scheme
 			{
 				"1"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "4 1"
 				}
 				"6"
 				{
-					"color" "130 130 130 255"
+					"color" "100 100 100 255"
 					"offset" "5 1"
 				}
 				"7"
 				{
-					"color" "130 130 130 255"
-					"offset" "6 1"
+					"color" "234 234 234 255"
+					"offset" "6 7"
 				}
 				"8"
 				{
-					"color" "130 130 130 255"
-					"offset" "7 1"
+					"color" "234 234 234 255"
+					"offset" "7 7"
 				}
 			}
 		}
@@ -4990,6 +4990,30 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color"					"QualityColorHaunted"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		BackpackItemBorder_Collectors
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorCollectors"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		BackpackItemMouseOverBorder_Collectors
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorCollectors"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
