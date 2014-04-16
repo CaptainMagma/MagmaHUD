@@ -53,10 +53,10 @@
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"25"
+		"ypos"					"26"
 		"zpos"					"2"
 		"wide"					"200"
-		"tall"					"7" //4
+		"tall"					"5"
 		"border"				"ChargeBorder"
 		"autoResize"			"0"
 		"pinCorner"				"0"

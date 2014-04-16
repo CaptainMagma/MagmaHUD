@@ -85,7 +85,7 @@
         "ypos"          "c150"
         "zpos"          "1"         // draw in front of ammo
         "wide"          "200" //200
-        "tall"          "8" //6
+        "tall"          "6" //6
         "MeterFG"       "White"
         "MeterBG"       "Gray"
     }   
@@ -989,7 +989,7 @@
         "xpos"          "c-100"
         "ypos"          "c125" // omp -- 2 before due to low-res grid.
         "wide"          "200"
-        "tall"          "33" //30
+        "tall"          "32" //30
     }   
 
     HudTeamGoal

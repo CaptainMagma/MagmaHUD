@@ -9,7 +9,7 @@
 		"ypos"			"1"
 		"zpos"			"2"
 		"wide"			"199"
-		"tall"			"7" //5
+		"tall"			"5"
 		"border"		"ChargeBorder"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -23,5 +23,5 @@
 		
 		"xpos_minmode"			"50"
 		"wide_minmode"			"100"
-	}
+	}					
 }

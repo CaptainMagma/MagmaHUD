@@ -6,9 +6,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-100" //c-100
-		"ypos"			"c134"
+		"ypos"			"c138"
 		"wide"			"200" //200
-		"tall"			"7"
+		"tall"			"5"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -64,7 +64,7 @@
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"150" //150
-		"tall"					"7"
+		"tall"					"5"
 		"border"				"ChargeBorder"				
 		"autoResize"			"0"
 		"pinCorner"				"0"

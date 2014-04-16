@@ -6,9 +6,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-100"
-		"ypos"			"c142" //c144
+		"ypos"			"c144"
 		"wide"			"200"
-		"tall"			"7"
+		"tall"			"5"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -22,7 +22,7 @@
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
@@ -64,7 +64,7 @@
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"150"
-		"tall"					"7"
+		"tall"					"5"
 		"border"				"ChargeBorder"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -75,6 +75,5 @@
 		"brighttext"			"0"
 		"bgcolor_override"		"OmpDarkBG"
 		"fgcolor_override"		"255 255 255 255"
-	}
-					
+	}					
 }

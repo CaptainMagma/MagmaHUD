@@ -3645,11 +3645,6 @@ Scheme
 					"color" "BorderBlack"
 					"offset" "0 1"
 				}
-				"3"
-				{
-					"color" "BorderBlack"
-					"offset" "0 1"
-				}
 			}
 			Right
 			{
@@ -3659,11 +3654,6 @@ Scheme
 					"offset" "1 0"
 				}
 				"2"
-				{
-					"color" "BorderBlack"
-					"offset" "1 0"
-				}
-				"3"
 				{
 					"color" "BorderBlack"
 					"offset" "1 0"
@@ -3681,11 +3671,6 @@ Scheme
 					"color" "BorderBlack"
 					"offset" "0 0"
 				}
-				"3"
-				{
-					"color" "BorderBlack"
-					"offset" "0 0"
-				}
 			}
 			Bottom
 			{
@@ -3695,11 +3680,6 @@ Scheme
 					"offset" "0 0"
 				}
 				"2"
-				{
-					"color" "BorderBlack"
-					"offset" "0 0"
-				}
-				"3"
 				{
 					"color" "BorderBlack"
 					"offset" "0 0"
