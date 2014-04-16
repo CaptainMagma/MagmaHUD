@@ -3629,6 +3629,82 @@ Scheme
 	// describes all the border types
 	Borders
 	{
+		ChargeBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "Black"
+					"offset" "0 1"
+				}
+				"3"
+				{
+					"color" "Black"
+					"offset" "0 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "1 0"
+				}
+				"2"
+				{
+					"color" "Black"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "Black"
+					"offset" "1 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Black"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "Black"
+					"offset" "0 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Black"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "Black"
+					"offset" "0 0"
+				}
+			}
+		}
 		FluxBorderBlack
 		{
 			"inset" "0 0 1 1"

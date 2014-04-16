@@ -81,11 +81,11 @@
         "fieldName"     "HudDemomanCharge"
         "visible"       "1"
         "enabled"       "1"
-        "xpos"          "c-100"
+        "xpos"          "c-100" //c-100
         "ypos"          "c150"
         "zpos"          "1"         // draw in front of ammo
-        "wide"          "200"
-        "tall"          "6"
+        "wide"          "200" //200
+        "tall"          "8" //6
         "MeterFG"       "White"
         "MeterBG"       "Gray"
     }   
@@ -989,7 +989,7 @@
         "xpos"          "c-100"
         "ypos"          "c125" // omp -- 2 before due to low-res grid.
         "wide"          "200"
-        "tall"          "30"
+        "tall"          "33" //30
     }   
 
     HudTeamGoal
