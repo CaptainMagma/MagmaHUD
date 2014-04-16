@@ -3686,7 +3686,7 @@ Scheme
 				}
 			}
 		}
-		FluxBorderBorderBlack
+		FluxBorderBlack
 		{
 			"inset" "0 0 1 1"
 			Left
