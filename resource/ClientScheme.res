@@ -78,6 +78,7 @@ Scheme
 		
 		"OmpChargeAmount"	"30 225 225 255"
 		"OmpRespawnTime"	"255 255 255 255" //255 30 255
+		"BorderBlack"		"0 0 0 255"
 		
 		"StatBar1"						"130 130 130 128"
 		"StatBar2"						"75 75 75 128"
@@ -3636,17 +3637,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "BorderBlack"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Black"
+					"color" "BorderBlack"
 					"offset" "0 1"
 				}
 				"3"
 				{
-					"color" "Black"
+					"color" "BorderBlack"
 					"offset" "0 1"
 				}
 			}
@@ -3654,17 +3655,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "BorderBlack"
 					"offset" "1 0"
 				}
 				"2"
 				{
-					"color" "Black"
+					"color" "BorderBlack"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "Black"
+					"color" "BorderBlack"
 					"offset" "1 0"
 				}
 			}
@@ -3672,17 +3673,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "BorderBlack"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Black"
+					"color" "BorderBlack"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "Black"
+					"color" "BorderBlack"
 					"offset" "0 0"
 				}
 			}
@@ -3690,22 +3691,22 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "BorderBlack"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Black"
+					"color" "BorderBlack"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "Black"
+					"color" "BorderBlack"
 					"offset" "0 0"
 				}
 			}
 		}
-		FluxBorderBlack
+		FluxBorderBorderBlack
 		{
 			"inset" "0 0 1 1"
 			Left
