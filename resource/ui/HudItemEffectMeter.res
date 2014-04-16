@@ -8,7 +8,7 @@
 		"xpos"			"c-100"
 		"ypos"			"c150" //c150
 		"wide"			"200"
-		"tall"			"5"
+		"tall"			"7" //5
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -65,7 +65,8 @@
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"150"
-		"tall"					"6"				
+		"tall"					"7"
+		"border"				"ChargeBorder"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -73,69 +74,9 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"OmpDarkBG"
+		"bgcolor_override"		"OmpDarkBG" //OmpDarkBG
 		"fgcolor_override"		"255 255 255 255"
 		
 	}
-
-	"HorizontalLineTop"
-	{
-		"controlName"	"ImagePanel"
-		"fieldName"		"HorizontalLine"
-		"xpos"			"25"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"150"
-		"tall"			"1"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"fillcolor"		"0 0 0 255"
-		"visible"			"1"
-		"enabled"			"1"
-	}
-	"HorizontalLineBottom"
-	{
-		"controlName"	"ImagePanel"
-		"fieldName"		"HorizontalLine"
-		"xpos"			"25"
-		"ypos"			"4"
-		"zpos"			"4"
-		"wide"			"150"
-		"tall"			"1"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"fillcolor"		"0 0 0 255"
-		"visible"			"1"
-		"enabled"			"1"
-	}
-	"ChargeMeterLine0"
-	{
-		"controlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"25"
-		"ypos"			"1"
-		"zpos"			"3"
-		"wide"			"1"
-		"tall"			"10"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"fillcolor"		"0 0 0 255"
-		"visible"			"1"
-		"enabled"			"1"		
-	}
-	"ChargeMeterLine100"
-	{
-		"controlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"174"
-		"ypos"			"1"
-		"zpos"			"3"
-		"wide"			"1"
-		"tall"			"10"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"fillcolor"		"0 0 0 255"
-		"visible"			"1"
-		"enabled"			"1"
-	}					
+					
 }

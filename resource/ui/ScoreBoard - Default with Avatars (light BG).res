@@ -13,13 +13,13 @@
         "visible"       "1"
         "enabled"       "1"
         "tabPosition"       "0"
-        "avatar_width"      "57" [$WIN32]
-        "name_width"        "75"    [$WIN32]
+        "avatar_width"      "57" [$WIN32] //57
+        "name_width"        "75"    [$WIN32] //70
         "status_width"      "15"    [$WIN32]
         "nemesis_width"     "15"    [$WIN32]
         "class_width"       "15"    [$WIN32]
-        "score_width"       "20"
-        "ping_width"        "17"    [$WIN32]
+        "score_width"       "20" //25
+        "ping_width"        "17"    [$WIN32] //20
     }
     "BlueScoreBG"
     {
@@ -47,6 +47,15 @@
         "visible"       "1"
         "enabled"       "1"
         "fillcolor"     "0 0 0 130"
+
+	if_mvm
+        {
+         	"xpos"	"c-400"
+		"ypos"	"c-110"
+		"wide"	"550"
+		"tall"	"207"
+	
+        }
     }                           
     "BlueTeamLabel"
     {
@@ -88,7 +97,8 @@
         "pinCorner" "0"
         "visible"   "1"
         "enabled"   "1"
-		if_mvm
+	
+	if_mvm
         {
             "visible"	"0"
         }
@@ -102,7 +112,7 @@
         "labelText" "%blueteamscore%"
         "textAlignment" "east"
         "textinsetx"    "20"
-        "xpos"      "c-352"
+        "xpos"      "c-338" //c-352
         "ypos"      "c-40" 
         "zpos"      "4"
         "wide"      "200"
@@ -126,7 +136,7 @@
         "labelText" "%blueteamscore%"
         "textAlignment" "east"
         "textinsetx"    "20"
-        "xpos"      "c-351"
+        "xpos"      "c-339" //c-351
         "ypos"      "c-39" 
         "zpos"      "4"
         "wide"      "200"
@@ -196,7 +206,7 @@
         "labelText" "%redteamscore%"
         "textAlignment" "west"
         "textinsetx"    "20"
-        "xpos"      "c152"
+        "xpos"      "c138" //c152
         "ypos"      "c-40" 
         "zpos"      "4"
         "wide"      "200"
@@ -220,7 +230,7 @@
         "labelText" "%redteamscore%"
         "textAlignment" "west"
         "textinsetx"    "20"
-        "xpos"      "c153"
+        "xpos"      "c139" //c153
         "ypos"      "c-39"
         "zpos"      "4"
         "wide"      "200"
@@ -365,10 +375,10 @@
         "labelText"     "%spectators%"
         "textAlignment"     "west"
         "textinsetx"        "20"
-        "xpos"          "c-330"
+        "xpos"          "c-330" //c-220
         "ypos"          "r65"   [$WIN32]
         "zpos"          "4"
-        "wide"          "260"
+        "wide"          "260" //150
         "tall"          "20"
         "autoResize"        "0"
         "pinCorner"     "0"
@@ -470,7 +480,7 @@
 			"labelText"		"#TF_ScoreBoard_Dueling"
 			"textAlignment"		"center"
 			"xpos"			"250"
-			"ypos"			"2	"
+			"ypos"			"2"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"

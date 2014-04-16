@@ -280,7 +280,7 @@
 		"padding_height"	"15"
 		
 		"BG"
-    	{
+    		{
     		"ControlName"			"ImagePanel"
     		"fieldName"			"BG"
     		"xpos"				"0"
@@ -291,7 +291,7 @@
     		"visible"			"1"
     		"enabled"			"1"
     		"fillcolor"			"40 40 40 255"
-    	}
+    		}
 		
 		"attriblabel"
 		{

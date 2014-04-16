@@ -7,7 +7,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"c-232"	
-		"ypos"			"c70" //54 ,70
+		"ypos"			"c70" //54
 		"zpos"			"2"
 		"wide"			"132"
 		"tall"			"132"
@@ -65,8 +65,8 @@
 		"xpos"			"33"	
 		"ypos"			"33"
 		"zpos"			"2"
-		"wide"			"64"
-		"tall"			"64"
+		"wide"			"64" //64
+		"tall"			"64" //64
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"

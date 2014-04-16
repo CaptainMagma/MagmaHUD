@@ -56,7 +56,8 @@
 		"ypos"					"25"
 		"zpos"					"2"
 		"wide"					"200"
-		"tall"					"4"
+		"tall"					"7" //4
+		"border"				"ChargeBorder"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"

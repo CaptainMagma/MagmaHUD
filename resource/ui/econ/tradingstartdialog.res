@@ -89,7 +89,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "177 69 51 255"
+		"fgcolor_override" "177 69 51 255" //TanLight
 	}
 	
 	"PlayerListScroller"
