@@ -237,7 +237,7 @@
 			{
 				"fov"                   "32"
 				"angles_x"              "-2"
-				"angles_y"              "210"
+				"angles_y"              "215"
 				"angles_z"              "0"
 				"origin_x"              "135"
 				"origin_y"              "0"
