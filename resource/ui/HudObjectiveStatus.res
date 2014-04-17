@@ -23,12 +23,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Futura20"
+			"font"			"Futura22"
 			"fgcolor"		"255 255 255 255"
-			"xpos"			"48" //52
+			"xpos"			"47" //52
 			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"55" //46
+			"wide"			"57" //46
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"

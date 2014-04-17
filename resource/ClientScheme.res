@@ -2547,6 +2547,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"Futura22"
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"22"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		
 		"Futura24"
 		{
