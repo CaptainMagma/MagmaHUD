@@ -16,9 +16,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CDamageAccountValue"
-		"font"			"FuturaHeavy20"
+		"font"			"FuturaHeavy22"
 		"fgcolor"		"DamageColor"
-		"xpos"			"c90" //default: -232, recently: c100
+		"xpos"			"c92" //default: -232, recently: c100
 		"ypos"			"c86" //c70
 		"zpos"			"5"
 		"wide"			"131"
@@ -38,9 +38,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CDamageAccountValueShadow"
-		"font"			"FuturaHeavy20"
+		"font"			"FuturaHeavy22"
 		"fgcolor"		"OmpShadow"
-		"xpos"			"c91" //default: -231, recently: 101
+		"xpos"			"c93" //default: -231, recently: 101
 		"ypos"			"c87" //c71
 		"zpos"			"5"
 		"wide"			"131"

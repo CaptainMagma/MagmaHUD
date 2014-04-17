@@ -2690,6 +2690,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"FuturaHeavy22"
+		{
+			"1"
+			{
+				"name"		"Roboto Medium"
+				"tall"		"22"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"FuturaHeavyOutline20"
 		{
 			"1"
