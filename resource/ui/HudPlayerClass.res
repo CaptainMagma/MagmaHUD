@@ -1,5 +1,26 @@
 "Resource/UI/HudPlayerClass.res"
 {
+	//////////////////////// Crosshairs ////////////////////////
+	"Crosshair1"
+	{
+		"controlName"	"CExLabel"
+		"fieldName"		"Crosshair1"
+		"textAlignment"	"center"
+		"zpos"			"20"
+		"enabled"		"1"
+		"visible"		"1"
+
+		"xpos"			"c-22"
+		"ypos"			"c-15"
+		"wide"			"43"
+		"tall"			"31"
+
+		"font"			"crosshair13outline"
+		"labelText"		"a"
+		"fgcolor"		"255 255 255 255"
+	}
+	//////////////////////// Crosshairs end ////////////////////////
+
 	// player class data
 	"HudPlayerClass"
 	{
@@ -104,11 +125,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"90"	[$WIN32]
-		"ypos"			"r200"	[$WIN32]
+		"xpos"			"65"	[$WIN32]
+		"ypos"			"r262"	[$WIN32]
 		"zpos"			"2"		
-		"wide"			"100"
-		"tall"			"200"
+		"wide"			"150" //100
+		"tall"			"300" //200
 		"autoResize"	"0"
 		"pinCorner"		"1"
 		"visible"		"1"
@@ -195,57 +216,57 @@
 			}
 			"Scout"
 			{
-				"fov"                   "25"
+				"fov"                   "40"
 				"angles_x"              "-2"
 				"angles_y"              "210"
 				"angles_z"              "0"
 				"origin_x"              "115"
 				"origin_y"              "10"
-				"origin_z"              "-75"
+				"origin_z"              "-80"
 			}
 			"Sniper"
 			{
-				"fov"                   "25"
+				"fov"                   "40"
 				"angles_x"              "-2"
 				"angles_y"              "205"
 				"angles_z"              "0"
 				"origin_x"              "115"
 				"origin_y"              "0"
-				"origin_z"              "-85"
+				"origin_z"              "-87"
 			}
 			"Soldier"
 			{
-				"fov"                   "25"
+				"fov"                   "35"
 				"angles_x"              "-2"
 				"angles_y"              "190" //205
 				"angles_z"              "0"
 				"origin_x"              "140"
 				"origin_y"              "3"
-				"origin_z"              "-83"
+				"origin_z"              "-78"
 			}
 			"Demoman"
 			{
-				"fov"                   "25"
+				"fov"                   "40"
 				"angles_x"              "-2"
 				"angles_y"              "205"
 				"angles_z"              "0"
 				"origin_x"              "130"
 				"origin_y"              "0"
-				"origin_z"              "-85"
+				"origin_z"              "-87"
 			}
 			"Medic"
 			{
-				"fov"                   "20"
+				"fov"                   "32"
 				"angles_x"              "-2"
 				"angles_y"              "210"
 				"angles_z"              "0"
 				"origin_x"              "135"
 				"origin_y"              "0"
-				"origin_z"              "-85"
+				"origin_z"              "-88"
 			}
 			"Heavy"
 			{
-				"fov"                   "20"
+				"fov"                   "35"
 				"angles_x"              "-2"
 				"angles_y"              "210"
 				"angles_z"              "0"
@@ -255,33 +276,33 @@
 			}
 			"Pyro"
 			{
-				"fov"                   "20"
+				"fov"                   "32"
 				"angles_x"              "-2"
 				"angles_y"              "213"
 				"angles_z"              "0"
 				"origin_x"              "165"
 				"origin_y"              "10" //10
-				"origin_z"              "-80"
+				"origin_z"              "-83"
 			}
 			"Spy"
 			{
-				"fov"                   "20"
+				"fov"                   "35"
 				"angles_x"              "-2"
 				"angles_y"              "210"
 				"angles_z"              "0"
 				"origin_x"              "135"
 				"origin_y"              "5"
-				"origin_z"              "-85"
+				"origin_z"              "-88"
 			}
 			"Engineer"
 			{
-				"fov"                   "20"
+				"fov"                   "35"
 				"angles_x"              "-2"
 				"angles_y"              "210"
 				"angles_z"              "0"
 				"origin_x"              "145"
 				"origin_y"              "5"
-				"origin_z"              "-80"
+				"origin_z"              "-82"
 			}
 		}
 	}
