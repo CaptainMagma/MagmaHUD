@@ -2721,12 +2721,42 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"FuturaHeavy37"
+		{
+			"1"
+			{
+				"name"		"Roboto Medium"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FuturaHeavy38"
+		{
+			"1"
+			{
+				"name"		"Roboto Medium"
+				"tall"		"38"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"FuturaHeavy42"
 		{
 			"1"
 			{
 				"name"		"Roboto Medium"
 				"tall"		"42"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FuturaHeavy43"
+		{
+			"1"
+			{
+				"name"		"Roboto Medium"
+				"tall"		"43"
 				"additive"	"0"
 				"antialias" "1"
 			}
