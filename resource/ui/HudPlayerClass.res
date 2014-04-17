@@ -7,6 +7,7 @@
 		"fieldName"		"HudPlayerClass"
 		"xpos"			"0"
 		"ypos"			"0"
+		"ypos_minmode"	"18"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
@@ -17,23 +18,24 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"10"
-		"ypos"			"r103" // omp -- 1 down due to low-res grid.
+		"xpos"			"99999"	[$WIN32]
+		"ypos"			"r88"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"50"
-		"tall"			"50"
+		"wide"			"75"
+		"wide_minmode"	"37"
+		"tall"			"75"
+		"tall_minmode"	"37"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"	
-		"alpha"			"0"
 	}
 	"PlayerStatusSpyImage"
 	{
-		"ControlName"	"CTFClassImage"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"99999"		[$WIN32]
+		"ypos"			"r67"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"55"
 		"wide_minmode"	"27"
@@ -50,8 +52,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyOutlineImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"99999"		[$WIN32]
+		"ypos"			"r67"	[$WIN32]
 		"zpos"			"7"
 		"wide"			"55"
 		"wide_minmode"	"27"
@@ -66,21 +68,21 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"99999"		[$WIN32]
+		"ypos"			"r60"	[$WIN32]
 		"zpos"			"1"		
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/character_red_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
+		"image"			"../hud/character_red_bg"	
 		"teambg_2"		"../hud/character_red_bg"
 		"teambg_2_lodef"	"../hud/character_red_bg_lodef"
 		"teambg_3"		"../hud/character_blue_bg"
 		"teambg_3_lodef"	"../hud/character_blue_bg_lodef"
 	}
-	
+
 	"classmodelpanelBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -237,7 +239,7 @@
 			{
 				"fov"                   "32"
 				"angles_x"              "-2"
-				"angles_y"              "215"
+				"angles_y"              "215" //210
 				"angles_z"              "0"
 				"origin_x"              "135"
 				"origin_y"              "0"
