@@ -228,7 +228,7 @@
 			"Demoman"
 			{
 				"fov"                   "40"
-				"angles_x"              "-2"
+				"angles_x"              "-6"
 				"angles_y"              "205"
 				"angles_z"              "0"
 				"origin_x"              "130"
