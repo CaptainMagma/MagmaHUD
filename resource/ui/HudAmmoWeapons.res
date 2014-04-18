@@ -127,7 +127,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"FuturaHeavy36"
+		"font"			"FuturaHeavy38"
 		"fgcolor"		"AmmoClipColor"
 		"xpos"			"-10" //-10
 		"ypos"			"53" //37
@@ -149,7 +149,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"FuturaHeavy36"
+		"font"			"FuturaHeavy38"
 		"fgcolor"		"OmpShadow"
 		"xpos"			"-9"
 		"ypos"			"54" //38
