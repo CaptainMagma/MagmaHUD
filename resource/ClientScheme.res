@@ -2089,7 +2089,7 @@ Scheme
 			{
 				"name"		"Roboto Standard" //Roboto Standard
 				"tall"		"11" //8
-				"weight"	"500"
+				"weight"	"550"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2099,8 +2099,8 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Standard"
-				"tall"		"13" //9
-				"weight"	"500"
+				"tall"		"12" //9
+				"weight"	"550"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2110,8 +2110,8 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Standard"
-				"tall"		"14" //12
-				"weight"	"500"
+				"tall"		"12" //12
+				"weight"	"550"
 				"additive"	"0"
 				"antialias" "1"
 			}
