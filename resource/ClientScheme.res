@@ -79,6 +79,7 @@ Scheme
 		"OmpChargeAmount"	"30 225 225 255"
 		"OmpRespawnTime"	"255 255 255 255" //255 30 255
 		"BorderBlack"		"0 0 0 255"
+		"G_WhiteShadow"		"255 255 255 50"
 		
 		"StatBar1"						"130 130 130 128"
 		"StatBar2"						"75 75 75 128"
@@ -3680,6 +3681,66 @@ Scheme
 	// describes all the border types
 	Borders
 	{
+
+		G_TargetBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "BorderBlack"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "G_WhiteShadow"
+					"offset" "2 2"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "BorderBlack"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "G_WhiteShadow"
+					"offset" "1 1"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "BorderBlack"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "G_WhiteShadow"
+					"offset" "1 2"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "BorderBlack"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "G_WhiteShadow"
+					"offset" "1 2"
+				}
+			}
+		}
 		AvatarBorder
 		{
 			"inset" "0 0 0 0"

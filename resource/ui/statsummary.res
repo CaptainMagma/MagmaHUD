@@ -91,7 +91,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"border"		"NoBorder"
+				"border"		"G_TargetBorder"
 				"bgcolor_override"	"15 15 15 150"
 			}
 	
@@ -128,7 +128,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"NoBorder"
+			"border"		"G_TargetBorder"
 			"bgcolor_override"	"15 15 15 150"
 		}
 
@@ -427,7 +427,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"NoBorder"
+			"border"		"G_TargetBorder"
 			"bgcolor_override"	"15 15 15 150"
 		}
 		"AveragesLabel"
