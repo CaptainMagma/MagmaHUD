@@ -3680,6 +3680,92 @@ Scheme
 	// describes all the border types
 	Borders
 	{
+		AvatarBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "234 234 234 0"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "234 234 234 255"
+					"offset" " 3 3"
+				}
+				"3"
+				{
+					"color" "234 234 234 255"
+					"offset" " 3 3"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "234 234 234 0"
+					"offset" "3 3"
+				}
+				"2"
+				{
+					"color" "234 234 234 0"
+					"offset" " 3 3"
+				}
+				"3"
+				{
+					"color" "234 234 234 255"
+					"offset" " 3 3"
+				}
+				"4"
+				{
+					"color" "234 234 234 255"
+					"offset" "3 3"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "234 234 234 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "234 234 234 255"
+					"offset" "1 2"
+				}
+				"3"
+				{
+					"color" "234 234 234 255"
+					"offset" "1 2"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "234 234 234 0"
+					"offset" "1 1"
+				}
+				"2"
+				{
+					"color" "234 234 234 0"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "234 234 234 255"
+					"offset" "1 2"
+				}
+				"4"
+				{
+					"color" "234 234 234 255"
+					"offset" "1 2"
+				}
+			}
+		}
 		ChargeBorder
 		{
 			"inset" "0 0 1 1"
