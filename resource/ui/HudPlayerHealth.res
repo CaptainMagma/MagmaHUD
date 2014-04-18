@@ -81,7 +81,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"-1"
+		"xpos"			"0"
 		"ypos"			"37" // omp -- -9 Mac fix.
 		"zpos"			"5"
 		"wide"			"130"
@@ -103,7 +103,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"0"
+		"xpos"			"1"
 		"ypos"			"38"
 		"zpos"			"5"
 		"wide"			"130"
