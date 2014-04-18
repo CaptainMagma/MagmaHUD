@@ -2087,9 +2087,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Standard" //Roboto Standard
-				"tall"		"11" //8
-				"weight"	"550"
+				"name"		"Roboto Medium" //Roboto Standard
+				"tall"		"10" //8
+				//"weight"	"550"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2098,9 +2098,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Standard"
-				"tall"		"12" //9
-				"weight"	"550"
+				"name"		"Roboto Medium"
+				"tall"		"11" //9
+				//"weight"	"550"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2109,9 +2109,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Standard"
-				"tall"		"12" //12
-				"weight"	"550"
+				"name"		"Roboto Medium"
+				"tall"		"11" //12
+				//"weight"	"550"
 				"additive"	"0"
 				"antialias" "1"
 			}

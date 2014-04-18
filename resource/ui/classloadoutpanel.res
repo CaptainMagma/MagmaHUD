@@ -48,7 +48,7 @@
 			
 			"model_ypos"	"5"
 			"model_tall"	"55"
-			"text_ypos"		"48" //54
+			"text_ypos"		"50" //54
 			"text_center"	"1"
 			"name_only"		"1"
 			
