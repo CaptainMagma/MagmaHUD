@@ -106,11 +106,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"65"	[$WIN32]
-		"ypos"			"r262"	[$WIN32]
+		"xpos"			"47"	[$WIN32] //65
+		"ypos"			"r245"	[$WIN32] //r262
 		"zpos"			"2"		
-		"wide"			"150" //100
-		"tall"			"300" //200
+		"wide"			"180" //150 ,180
+		"tall"			"250" //300, 270
 		"autoResize"	"0"
 		"pinCorner"		"1"
 		"visible"		"1"
@@ -269,7 +269,7 @@
 			{
 				"fov"                   "35"
 				"angles_x"              "-2"
-				"angles_y"              "200"
+				"angles_y"              "200" //210
 				"angles_z"              "0"
 				"origin_x"              "135"
 				"origin_y"              "5"
