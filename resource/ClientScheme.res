@@ -65,8 +65,8 @@ Scheme
 		
 		"OmpAmmoClip"		"255 255 255 255"
 		"OmpAmmoReserve"	"100 250 120 255" //150 150 150
-		"OmpAmmoMetal"		"150 150 150 255"
-		"OmpDemoPipes"		"150 150 150 255"
+		"OmpAmmoMetal"		"255 255 255 255" //150 150 150
+		"OmpDemoPipes"		"255 255 255 255" //150 150 150
 
 		"OmpAmmoClipLow1"	"255 30 30 255"
 		"OmpAmmoClipLow2"	"200 30 30 255"
