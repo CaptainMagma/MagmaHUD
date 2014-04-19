@@ -4,7 +4,7 @@
 	{
 		"delta_item_x"			"120"
 		"delta_item_start_y"	"24"
-		"delta_item_end_y"		"24"
+		"delta_item_end_y"		"16" //24
 		"PositiveColor"			"50 150 50 255"
 		"NegativeColor"			"225 30 30 255"
 		"delta_lifetime"		"0.75"
@@ -52,7 +52,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"25"
+		"xpos"			"26" //25
 		"ypos"			"20"
 		"zpos"			"5"
 		"wide"			"149"
@@ -66,7 +66,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Futura24"
+		"font"			"Futura20" //Futura24
 		"fgcolor"		"OmpAmmoMetal"
 		
 		"xpos_minmode"	"50"
@@ -77,7 +77,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValueShadow"
-		"xpos"			"26"
+		"xpos"			"27" //26
 		"ypos"			"21"
 		"zpos"			"2"
 		"wide"			"149"
@@ -91,7 +91,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Futura24"
+		"font"			"Futura20"
 		"fgcolor"		"OmpShadow"
 		
 		"xpos_minmode"	"51"
