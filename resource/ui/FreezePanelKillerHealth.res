@@ -76,7 +76,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueFreezeBackground"
 		"xpos"			"4"
-		"ypos"			"4"
+		"ypos"			"3"
 		"zpos"			"5"
 		"wide"			"26"
 		"tall"			"26"
