@@ -4216,17 +4216,17 @@ Scheme
 				"3"
 				{
 					"color" "130 130 130 255"
-					"offset" "2 1"
+					"offset" "2 0"
 				}
 				"4"
 				{
 					"color" "130 130 130 255"
-					"offset" "3 1"
+					"offset" "3 0"
 				}
 				"5"
 				{
 					"color" "130 130 130 255"
-					"offset" "4 1"
+					"offset" "4 0"
 				}
 			}
 			Top
@@ -4262,27 +4262,27 @@ Scheme
 				"1"
 				{
 					"color" "130 130 130 255"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 				"2"
 				{
 					"color" "130 130 130 255"
-					"offset" "1 1"
+					"offset" "1 0"
 				}
 				"3"
 				{
 					"color" "130 130 130 255"
-					"offset" "2 1"
+					"offset" "2 0"
 				}
 				"4"
 				{
 					"color" "130 130 130 255"
-					"offset" "3 1"
+					"offset" "3 0"
 				}
 				"5"
 				{
 					"color" "130 130 130 255"
-					"offset" "4 1"
+					"offset" "4 0"
 				}
 			}
 		}
