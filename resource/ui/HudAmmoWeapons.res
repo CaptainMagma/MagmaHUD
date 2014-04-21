@@ -83,7 +83,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"Futura24" //Futura24
+		"font"			"FuturaHeavy22" //Futura24
 		"fgcolor"		"OmpAmmoReserve"
 		"xpos"			"57" //67
 		"ypos"			"65" //49
@@ -105,7 +105,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"Futura24"
+		"font"			"FuturaHeavy22"
 		"fgcolor"		"OmpShadow"
 		"xpos"			"58" //68
 		"ypos"			"66" //50
