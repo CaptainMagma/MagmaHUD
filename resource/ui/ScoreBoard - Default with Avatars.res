@@ -266,20 +266,20 @@
         
         if_mvm
         {
-            "visible"       "0"
+        	"visible"       "0"
         }
     }                           
     "ServerLabel"
     {
         "ControlName"       "CExLabel"
         "fieldName"     "ServerLabel"
-        "font"          "Futura8"
+        "font"          "Futura9" //Futura8
         "fgcolor"       "255 255 255 255"
         "labelText"     "%server%"
-        "textAlignment"     "west"
-        "textinsetx"        "20"
-        "xpos"          "c150"
-        "ypos"          "r65"
+        "textAlignment"     "west" //west
+        "textinsetx"        "0" //20
+        "xpos"          "5" //c150
+        "ypos"          "15" //r65
         "zpos"          "2"
         "wide"          "320"
         "tall"          "20"
@@ -290,21 +290,21 @@
         
         if_mvm
         {
-			"xpos"          "c-160"
-            "ypos"          "r65"
-			"textAlignment"     "center"
+		"xpos"          "c-160"
+            	"ypos"          "r65"
+		"textAlignment"     "center"
         }
     }
     "ServerTimeLeft"
     {
         "ControlName"       "CExLabel"
         "fieldName"     "ServerTimeLeft"
-        "font"          "Futura8"
+        "font"          "Futura9" //Futura8
         "fgcolor"       "255 255 255 255"
         "labelText"     "%servertimeleft%"
-        "textAlignment"     "center"
-        "xpos"          "c-100"
-        "ypos"          "r65"
+        "textAlignment"     "west" //center
+        "xpos"          "5" //c-100
+        "ypos"          "5" //r65
         "wide"          "200"
         "tall"          "20"
         "autoResize"        "0"
@@ -371,15 +371,15 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "Spectators"
-        "font"          "Futura8"
+        "font"          "Futura8" //Futura8
         "fgcolor"       "255 255 255 255"
         "labelText"     "%spectators%"
         "textAlignment"     "west"
-        "textinsetx"        "20"
-        "xpos"          "c-330" //c-220
+        "textinsetx"        "20" //20
+        "xpos"          "c-270" //c-270
         "ypos"          "r65"   [$WIN32]
         "zpos"          "4"
-        "wide"          "260" //150
+        "wide"          "560" //260
         "tall"          "20"
         "autoResize"        "0"
         "pinCorner"     "0"
@@ -1211,12 +1211,44 @@
             "pinCorner" "0"
             "visible"   "1"
             "enabled"   "1"
-        }   
+        }
+	"MapLabel"
+        {
+        	"ControlName"       "CExLabel"
+        	"fieldName"     "maplabel"
+        	"font"          "Futura9" //Futura8
+        	"fgcolor"       "255 255 255 255"
+        	"labelText"     "Map:"
+        	"textAlignment"     "west" //west
+        	"textinsetx"        "0" //20
+        	"xpos"          "5" //c150
+        	"ypos"          "25" //r65
+        	"zpos"          "2"
+        	"wide"          "320"
+        	"tall"          "20"
+        	"autoResize"        "0"
+        	"pinCorner"     "0"
+        	"visible"       "1" [$WIN32]
+        	"enabled"       "1"
+        }  
         "MapName"
         {
-            "ControlName"   "CExLabel"
-            "fieldName" "mapname"
-            "xpos"      "999999"
+        	"ControlName"       "CExLabel"
+        	"fieldName"     "mapname"
+        	"font"          "Futura9" //Futura8
+        	"fgcolor"       "255 255 255 255"
+        	"labelText"     "%mapname%"
+        	"textAlignment"     "west" //west
+        	"textinsetx"        "0" //20
+        	"xpos"          "23" //c150
+        	"ypos"          "25" //r65
+        	"zpos"          "2"
+        	"wide"          "320"
+        	"tall"          "20"
+        	"autoResize"        "0"
+        	"pinCorner"     "0"
+        	"visible"       "1" [$WIN32]
+        	"enabled"       "1"
         }   
         "GameType"
         {

@@ -37,7 +37,7 @@ Scheme
 	    "TFMediumBrown"		"62 62 62 255"
 
 	    "QuickListBGDeselected"		"62 62 62 255"
-	    "QuickListBGSelected"               "131 31 104 150"
+	    "QuickListBGSelected"               "32 32 32 150"
 	    
 	    "Blank"				"0 0 0 0"
 	    

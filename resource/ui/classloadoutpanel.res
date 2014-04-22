@@ -86,9 +86,10 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"bgcolor_override"	"255 0 0 255"
+			"defaultBGcolor_override"	"80 80 80 255"
+			"armedBGcolor_override"		"70 70 70 255"
 			"noitem_textcolor"	"117 107 94 255"
-			"PaintBackgroundType"	"2"
+			//"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 
 			"fgcolor_override"	"Base Color"

@@ -276,7 +276,7 @@ Scheme
 		Econ.Button.PresetArmedColorFg						"230 230 230 255"
 		Econ.Button.PresetDepressedColorBg					"35 35 35 255"
 		
-		Econ.Button.PresetDefaultColorBg					"130 130 130 255"
+		Econ.Button.PresetDefaultColorBg					"65 65 65 255"
 		Econ.Button.PresetArmedColorBg						"38 38 38 255"
 		Econ.Button.PresetDepressedColorBg					"35 35 35 255"
 		
@@ -3691,6 +3691,23 @@ Scheme
 	// describes all the border types
 	Borders
 	{
+		G_TargetBorder_Top
+		{
+			"inset" "0 0 0 0"
+			Top
+			{
+				"1"
+				{
+					"color" "BorderBlack"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "G_WhiteShadow"
+					"offset" "0 0"
+				}
+			}
+		}
 
 		G_TargetBorder
 		{
@@ -4079,12 +4096,12 @@ Scheme
 				"1"
 				{
 					"color" "Black"
-					"offset" "0 1"
+					"offset" "0 0" //0 0
 				}
 				"2"
 				{
 					"color" "130 130 130 255"
-					"offset" "1 1"
+					"offset" "1 0" //1 1
 				}
 			}
 			Top
@@ -4110,7 +4127,7 @@ Scheme
 				"2"
 				{
 					"color" "130 130 130 255"
-					"offset" "1 1"
+					"offset" "1 2" //1 1
 				}
 			}
 		}

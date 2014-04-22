@@ -37,16 +37,17 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "MainBG"
-        "xpos"          "c-231" //c-227
-        "ypos"          "c4"
+        "xpos"          "c-232" //c-227
+        "ypos"          "c2" //c4
         "zpos"          "-1"
-        "wide"          "458" //450
-        "tall"          "174" //172
+        "wide"          "459" //458
+        "tall"          "176" //174
         "autoResize"    "0"
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
         "fillcolor"     "0 0 0 130"
+	"border"	"G_TargetBorder"
 
 	if_mvm
         {
@@ -54,7 +55,7 @@
 		"ypos"	"c-110"
 		"wide"	"550"
 		"tall"	"207"
-	
+		"border" "NoBorder"
         }
     }                           
     "BlueTeamLabel"
@@ -89,7 +90,7 @@
         "labelText" "VS"
         "textAlignment" "center"
         "xpos"      "c-203" //c-200
-        "ypos"      "c-20"  [$WIN32]
+        "ypos"      "c-22"  [$WIN32] //c-20
         "zpos"      "3"
         "wide"      "400"
         "tall"      "40"
@@ -161,7 +162,7 @@
         "textAlignment"     "west"
         "textinsetx"        "20"
         "xpos"          "c-228"
-        "ypos"          "c-12"
+        "ypos"          "c-14" //c-12
         "wide"          "100"
         "tall"          "20"
         "autoResize"        "0"
@@ -255,7 +256,7 @@
         "textAlignment"     "east"
         "textinsetx"        "20"
         "xpos"          "c25"
-        "ypos"          "c-12"
+        "ypos"          "c-14" //c-12
         "wide"          "200"
         "tall"          "20"
         "autoResize"    "0"
@@ -265,20 +266,20 @@
         
         if_mvm
         {
-            "visible"       "0"
+        	"visible"       "0"
         }
     }                           
     "ServerLabel"
     {
         "ControlName"       "CExLabel"
         "fieldName"     "ServerLabel"
-        "font"          "Futura8"
+        "font"          "Futura9" //Futura8
         "fgcolor"       "255 255 255 255"
         "labelText"     "%server%"
-        "textAlignment"     "west"
-        "textinsetx"        "20"
-        "xpos"          "c150"
-        "ypos"          "r65"
+        "textAlignment"     "west" //west
+        "textinsetx"        "0" //20
+        "xpos"          "5" //c150
+        "ypos"          "15" //r65
         "zpos"          "2"
         "wide"          "320"
         "tall"          "20"
@@ -289,21 +290,21 @@
         
         if_mvm
         {
-			"xpos"          "c-160"
-            "ypos"          "r65"
-			"textAlignment"     "center"
+		"xpos"          "c-160"
+            	"ypos"          "r65"
+		"textAlignment"     "center"
         }
     }
     "ServerTimeLeft"
     {
         "ControlName"       "CExLabel"
         "fieldName"     "ServerTimeLeft"
-        "font"          "Futura8"
+        "font"          "Futura9" //Futura8
         "fgcolor"       "255 255 255 255"
         "labelText"     "%servertimeleft%"
-        "textAlignment"     "center"
-        "xpos"          "c-100"
-        "ypos"          "r65"
+        "textAlignment"     "west" //center
+        "xpos"          "5" //c-100
+        "ypos"          "5" //r65
         "wide"          "200"
         "tall"          "20"
         "autoResize"        "0"
@@ -320,7 +321,7 @@
     {
         "ControlName"   "SectionedListPanel"
         "fieldName"     "BluePlayerList"
-        "xpos"          "c-232" //c-227
+        "xpos"          "c-233" //c-232
         "ypos"          "c0"
         "zpos"          "20"
         "wide"          "230" //230
@@ -370,15 +371,15 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "Spectators"
-        "font"          "Futura8"
+        "font"          "Futura8" //Futura8
         "fgcolor"       "255 255 255 255"
         "labelText"     "%spectators%"
         "textAlignment"     "west"
-        "textinsetx"        "20"
-        "xpos"          "c-330" //c-220
+        "textinsetx"        "20" //20
+        "xpos"          "c-270" //c-270
         "ypos"          "r65"   [$WIN32]
         "zpos"          "4"
-        "wide"          "260" //150
+        "wide"          "560" //260
         "tall"          "20"
         "autoResize"        "0"
         "pinCorner"     "0"
@@ -427,6 +428,7 @@
         "enabled"       "1" 
         "fillcolor"     "0 0 0 130"
         "PaintBackgroundType"   "0"
+	"border"	"G_TargetBorder_Top"
     }
     "ClassImage"
     {
@@ -1210,12 +1212,44 @@
             "pinCorner" "0"
             "visible"   "1"
             "enabled"   "1"
-        }   
+        }
+	"MapLabel"
+        {
+        	"ControlName"       "CExLabel"
+        	"fieldName"     "maplabel"
+        	"font"          "Futura9" //Futura8
+        	"fgcolor"       "255 255 255 255"
+        	"labelText"     "Map:"
+        	"textAlignment"     "west" //west
+        	"textinsetx"        "0" //20
+        	"xpos"          "5" //c150
+        	"ypos"          "25" //r65
+        	"zpos"          "2"
+        	"wide"          "320"
+        	"tall"          "20"
+        	"autoResize"        "0"
+        	"pinCorner"     "0"
+        	"visible"       "1" [$WIN32]
+        	"enabled"       "1"
+        }  
         "MapName"
         {
-            "ControlName"   "CExLabel"
-            "fieldName" "mapname"
-            "xpos"      "999999"
+        	"ControlName"       "CExLabel"
+        	"fieldName"     "mapname"
+        	"font"          "Futura9" //Futura8
+        	"fgcolor"       "255 255 255 255"
+        	"labelText"     "%mapname%"
+        	"textAlignment"     "west" //west
+        	"textinsetx"        "0" //20
+        	"xpos"          "23" //c150
+        	"ypos"          "25" //r65
+        	"zpos"          "2"
+        	"wide"          "320"
+        	"tall"          "20"
+        	"autoResize"        "0"
+        	"pinCorner"     "0"
+        	"visible"       "1" [$WIN32]
+        	"enabled"       "1"
         }   
         "GameType"
         {
