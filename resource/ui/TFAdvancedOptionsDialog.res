@@ -142,8 +142,8 @@
 		"visible"		"0"
 		"paintborder"			"1"
 		"paintbackground"		"1"
-		"border"				"NoBorder"
-		"bgcolor_override"		"25 25 25 255"
+		"border"				"BorderButton"
+		"bgcolor_override"		"30 30 30 255"
 		
 		"TipLabel"
 		{
@@ -161,7 +161,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"255 255 255 255"
 			"wrap"			"1"
 			//"centerwrap"	"1"
 		}
