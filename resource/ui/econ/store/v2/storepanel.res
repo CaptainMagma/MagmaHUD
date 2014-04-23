@@ -140,14 +140,14 @@
 			"textinsetx"					"30"
 			"textAlignment"					"center"
 			"paintbackground"				"1"
-			"font"							"Futura14"
+			"font"							"FuturaHeavy19" //Futura14
 			//"selectedcolor"					"230 230 230 255"
 			//"unselectedcolor"				"120 120 120 255"	
-			"defaultBgColor_override"		"45 45 45 255" //60 60 60 255
+			"defaultBgColor_override"		"45 45 45 255"
 			"unselectedBgColor_override"	"0 19 35 255"
 			"depressedBgColor_override"		"0 19 35 255"
-			"activeborder_override"			"FluxsBorderTabBottomless" //BorderTab
-			"normalborder_override" 		"FluxsBorderTabFade" //BorderTab
+			"activeborder_override"			"FluxsBorderTabBottomless"
+			"normalborder_override" 		"FluxsBorderTabFade"
 		}
 	}
 	

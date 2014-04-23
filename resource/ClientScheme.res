@@ -2701,6 +2701,16 @@ Scheme
 				"weight"	"500"
 			}
 		}
+		"FuturaHeavy19"
+		{
+			"1"
+			{
+				"name"		"Roboto Medium"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"FuturaHeavy20"
 		{
 			"1"

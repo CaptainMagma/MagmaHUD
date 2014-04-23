@@ -138,7 +138,7 @@
 			"textinsetx"					"30"
 			"textAlignment"					"center"
 			"paintbackground"				"1"
-			"font"							"Futura14"
+			"font"							"FuturaHeavy19" //Futura14
 			//"selectedcolor"					"230 230 230 255"
 			//"unselectedcolor"				"120 120 120 255"	
 			"defaultBgColor_override"		"45 45 45 255"
