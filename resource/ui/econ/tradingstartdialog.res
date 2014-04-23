@@ -46,13 +46,13 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"paintbackground"	"1"
 				"defaultBgColor_override"	"30 30 30 255" //15 15 15
-			"armedBgColor_override"		"40 40 40 255" //25 25 25
-			"depressedBgColor_override"	"40 40 40 255" //25 25 25
+			"armedBgColor_override"		"25 25 25 255" //25 25 25
+			"depressedBgColor_override"	"25 25 25 255" //25 25 25
 				"defaultFgColor_override"	"TanLight"
 				"armedFgColor_override" 	"TanLight"
 				"depressedFgColor_override" "TanLight"
-				"border_default"			"BorderButton"
-				"border_armed"				"BorderButton"
+				"border_default"			"NoBorder"
+				"border_armed"				"NoBorder"
 			}
 			
 			"avatar"
@@ -102,7 +102,7 @@
 		"tall"			"130"
 		"PaintBackgroundType"	"2"
 		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"0 0 0 64"
+		"bgcolor_override"	"0 0 0 0"
 		
 		"PlayerList"
 		{
@@ -172,13 +172,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"1"
 			"defaultBgColor_override"	"30 30 30 255" //15 15 15
-			"armedBgColor_override"		"40 40 40 255" //25 25 25
-			"depressedBgColor_override"	"40 40 40 255" //25 25 25
+			"armedBgColor_override"		"25 25 25 255" //25 25 25
+			"depressedBgColor_override"	"25 25 25 255" //25 25 25
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override" 	"TanLight"
 			"depressedFgColor_override" "TanLight"
-			"border_default"			"BorderButton"
-			"border_armed"				"BorderButton"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 		}
 		"subbutton1"
 		{
@@ -205,13 +205,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"1"
 			"defaultBgColor_override"	"30 30 30 255" //15 15 15
-			"armedBgColor_override"		"40 40 40 255" //25 25 25
-			"depressedBgColor_override"	"40 40 40 255" //25 25 25
+			"armedBgColor_override"		"25 25 25 255" //25 25 25
+			"depressedBgColor_override"	"25 25 25 255" //25 25 25
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override" 	"TanLight"
 			"depressedFgColor_override" "TanLight"
-			"border_default"			"BorderButton"
-			"border_armed"				"BorderButton"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 		}
 		"subbutton2"
 		{
@@ -238,13 +238,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"1"
 			"defaultBgColor_override"	"30 30 30 255" //15 15 15
-			"armedBgColor_override"		"40 40 40 255" //25 25 25
-			"depressedBgColor_override"	"40 40 40 255" //25 25 25
+			"armedBgColor_override"		"25 25 25 255" //25 25 25
+			"depressedBgColor_override"	"25 25 25 255" //25 25 25
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override" 	"TanLight"
 			"depressedFgColor_override" "TanLight"
-			"border_default"			"BorderButton"
-			"border_armed"				"BorderButton"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 		}
 	}
 	"StatePanel1"
@@ -298,13 +298,13 @@
 			"fgcolor_override" "200 187 161 255"
 			"paintbackground"	"1"
 			"defaultBgColor_override"	"30 30 30 255" //15 15 15
-			"armedBgColor_override"		"40 40 40 255" //25 25 25
-			"depressedBgColor_override"	"40 40 40 255" //25 25 25
+			"armedBgColor_override"		"25 25 25 255" //25 25 25
+			"depressedBgColor_override"	"25 25 25 255" //25 25 25
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override" 	"TanLight"
 			"depressedFgColor_override" "TanLight"
-			"border_default"			"BorderButton"
-			"border_armed"				"BorderButton"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 		}	
 	}
 	"StatePanel2"
@@ -504,13 +504,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"1"
 			"defaultBgColor_override"	"30 30 30 255" //15 15 15
-			"armedBgColor_override"		"40 40 40 255" //25 25 25
-			"depressedBgColor_override"	"40 40 40 255" //25 25 25
+			"armedBgColor_override"		"25 25 25 255" //25 25 25
+			"depressedBgColor_override"	"25 25 25 255" //25 25 25
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override" 	"TanLight"
 			"depressedFgColor_override" "TanLight"
-			"border_default"			"BorderButton"
-			"border_armed"				"BorderButton"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 		}
 	}
 	
@@ -539,12 +539,12 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
 			"defaultBgColor_override"	"30 30 30 255" //15 15 15
-			"armedBgColor_override"		"40 40 40 255" //25 25 25
-			"depressedBgColor_override"	"40 40 40 255" //25 25 25
+			"armedBgColor_override"		"25 25 25 255" //25 25 25
+			"depressedBgColor_override"	"25 25 25 255" //25 25 25
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override" 	"TanLight"
 			"depressedFgColor_override" "TanLight"
-			"border_default"			"BorderButton"
-			"border_armed"				"BorderButton"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 	}
 }

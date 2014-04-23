@@ -504,8 +504,8 @@
 		"font"			"Futura24"
 		"labelText"		"#SelectClassLoadout"
 		"textAlignment"	"north"
-		"xpos"			"999999"
-		"ypos"			"999999"
+		"xpos"			"0"
+		"ypos"			"300"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"30"
@@ -513,7 +513,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "205 205 205 255"
 	}
 	"LoadoutChangesLabel"
 	{

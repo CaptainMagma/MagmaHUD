@@ -58,7 +58,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"FuturaHeavy16"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -69,14 +69,14 @@
 		
 		
 			"paintbackground"	"1"
-			"defaultBgColor_override"	"30 30 30 255" //15 15 15
-			"armedBgColor_override"		"40 40 40 255" //25 25 25
-			"depressedBgColor_override"	"40 40 40 255" //25 25 25
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
-			"border_default"			"BorderButton"
-			"border_armed"				"BorderButtonHover"
+			"defaultBgColor_override"	"255 255 255 255" //30 30 30
+			"armedBgColor_override"		"200 200 200 255" //40 40 40
+			"depressedBgColor_override"	"200 200 200 255" //40 40 40
+			"defaultFgColor_override"	"40 40 40 255"
+			"armedFgColor_override" 	"40 40 40 255"
+			"depressedFgColor_override" "40 40 40 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 	}
 	"OkButton"
 	{
@@ -93,7 +93,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_Ok"
-		"font"			"HudFontSmallBold"
+		"font"			"FuturaHeavy16"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -104,14 +104,14 @@
 		
 		
 			"paintbackground"	"1"
-			"defaultBgColor_override"	"30 30 30 255" //15 15 15
-			"armedBgColor_override"		"40 40 40 255" //25 25 25
-			"depressedBgColor_override"	"40 40 40 255" //25 25 25
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
-			"border_default"			"BorderButton"
-			"border_armed"				"BorderButtonHover"
+			"defaultBgColor_override"	"255 255 255 255" //30 30 30
+			"armedBgColor_override"		"200 200 200 255" //40 40 40
+			"depressedBgColor_override"	"200 200 200 255" //40 40 40
+			"defaultFgColor_override"	"40 40 40 255"
+			"armedFgColor_override" 	"40 40 40 255"
+			"depressedFgColor_override" "40 40 40 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 	}
 	
 	"PanelListPanel"
