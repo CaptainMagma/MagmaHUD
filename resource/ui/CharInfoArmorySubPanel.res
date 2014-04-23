@@ -280,8 +280,8 @@
 		"defaultFgColor_override"	"230 230 230 255"
 		"armedFgColor_override" 	"230 230 230 255"
 		"depressedFgColor_override" "38 38 38 255"
-		"border_default"			"BorderButton"
-		"border_armed"				"BorderButtonHover"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	"PrevPageButtonMark"
 	{
@@ -361,8 +361,8 @@
 		"defaultFgColor_override"	"230 230 230 255"
 		"armedFgColor_override" 	"230 230 230 255"
 		"depressedFgColor_override" "38 38 38 255"
-		"border_default"			"BorderButton"
-		"border_armed"				"BorderButtonHover"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	"WikiButton"
 	{
@@ -394,8 +394,8 @@
 		"defaultFgColor_override"	"230 230 230 255"
 		"armedFgColor_override" 	"230 230 230 255"
 		"depressedFgColor_override" "38 38 38 255"
-		"border_default"			"BorderButton"
-		"border_armed"				"BorderButtonHover"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	"ViewSetButton"
 	{
@@ -459,8 +459,8 @@
 		"defaultFgColor_override"	"230 230 230 255"
 		"armedFgColor_override" 	"230 230 230 255"
 		"depressedFgColor_override" "38 38 38 255"
-		"border_default"			"BorderButton"
-		"border_armed"				"BorderButtonHover"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	
 	// Removed and Hidden Stuff

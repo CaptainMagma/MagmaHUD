@@ -608,7 +608,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StyleButton"
-		"xpos"			"c-190" //c50, changed c-200
+		"xpos"			"c185" //c-190
 		"ypos"			"323" //290
 		"zpos"			"20" 
 		"wide"			"100"
@@ -641,7 +641,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DetailsButton"
-		"xpos"			"c185"
+		"xpos"			"c-190" //c185
 		"ypos"			"323"
 		"zpos"			"20"
 		"wide"			"100"

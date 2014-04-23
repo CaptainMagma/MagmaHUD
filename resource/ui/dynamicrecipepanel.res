@@ -207,8 +207,8 @@
 			"defaultFgColor_override"	"230 230 230 255"
 			"armedFgColor_override" 	"230 230 230 255"
 			"depressedFgColor_override" "38 38 38 255"
-			"border_default"			"BorderButton"
-			"border_armed"				"BorderButtonHover"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 		}		
 		
 		"PrevInputPageButton"
@@ -396,8 +396,8 @@
 			"defaultFgColor_override"	"230 230 230 255"
 			"armedFgColor_override" 	"230 230 230 255"
 			"depressedFgColor_override" "38 38 38 255"
-			"border_default"			"BorderButton"
-			"border_armed"				"BorderButtonHover"
+			"border_default"			"NoBorder" //BorderButton
+			"border_armed"				"NoBorder" //BorderButtonHover
 		}	
 		
 		"PrevPageButton"
