@@ -81,7 +81,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
 		"font"			"HudFontSmallest" //Bold
-		"labelText"		">>"
+		"labelText"		""
 		"textAlignment"	"west"
 		"xpos"			"c-300"
 		"ypos"			"20"
@@ -90,7 +90,7 @@
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -98,10 +98,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumSmallBold"
-		"labelText"		"#ClassBeingEquipped"
+		"font"			"Futura24" //HudFontMediumSmallBold
+		"labelText"		"Backpack" //#ClassBeingEquipped
+		"fgcolor"		"230 230 230 255"
 		"textAlignment"	"west"
-		"xpos"			"c-280"
+		"xpos"			"c-288"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"210"

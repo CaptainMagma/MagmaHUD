@@ -124,6 +124,7 @@
 		"fieldName"		"ClassLabel"
 		"font"			"Futura24"
 		"labelText"		"#ClassBeingEquipped"
+		"fgcolor"		"230 230 230 255"
 		"textAlignment"	"west"
 		"xpos"			"c-310"
 		"ypos"			"15"
