@@ -172,7 +172,7 @@
 		"editable"		"1"
 		"unicode"		"1"
 		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
+		"bgcolor_override"	"255 255 255 255"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmall"
 	}
@@ -200,12 +200,12 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"255 255 255 255"
 		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "235 226 202 255"
+		"disabledFgColor_override" "255 255 255 255"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
+		"selectionTextColor_override" "255 255 255 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 		
 	}
@@ -233,12 +233,12 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"255 255 255 255"
 		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "235 226 202 255"
+		"disabledFgColor_override" "255 255 255 255"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
+		"selectionTextColor_override" "255 255 255 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 		
 	}
@@ -320,7 +320,7 @@
 		"paintborder"	"1"
 		"textinsetx"	"100"
 		"border"		"LoadoutItemPopupBorder"
-		"fgcolor"		"243 234 216 255"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"PrevPageButton"
@@ -442,7 +442,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"SubcategoryFiltersLabel"
@@ -461,7 +461,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"SortFilterLabel"
@@ -480,7 +480,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"ClassFilterLabel"
@@ -499,7 +499,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"ClassFilterNavPanel"
