@@ -675,7 +675,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowExplanationsButton"
 		"xpos"			"c267" //c275
-		"ypos"			"10"
+		"ypos"			"12" //10
 		"zpos"			"100"
 		"wide"			"20"
 		"tall"			"20"
