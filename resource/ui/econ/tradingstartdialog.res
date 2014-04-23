@@ -13,7 +13,7 @@
 		"paintbackgroundtype"	"2"
 		"paintbackground"		"1"
 		"border"				"FluxsBorderTab"
-		"bgcolor_override"		"35 35 35 255"
+		"bgcolor_override"		"40 40 40 255" //35 35 35
 		
 		
 		"button_kv"

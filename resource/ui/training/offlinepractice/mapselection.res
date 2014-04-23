@@ -131,7 +131,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"246 237 211 255"
+		"fgcolor_override"	"255 255 255 255"
 	}
 	"MapNameLabelShadow"
 	{
@@ -171,7 +171,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"246 237 211 255"
+		"fgcolor_override"	"255 255 255 255"
 		"bgcolor_override"	"0 0 0 200"
 		"border"		"BorderButton"
 	}
@@ -225,7 +225,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"246 237 211 255"
+		"fgcolor_override"	"255 255 255 255"
 	}
 	
 	"DifficultyComboBox"
@@ -250,13 +250,13 @@
 		"unicode"			"0"
 		"textinsetx"		"50"
 		
-		"fgcolor_override"	"246 237 211 255"
+		"fgcolor_override"	"255 255 255 255"
 		"bgcolor_override"	"16 14 14 255"
 		
-		"disabledFgColor_override" "235 226 202 255"
+		"disabledFgColor_override" "255 255 255 255" //235 226 202
 		"disabledBgColor_override" "51 47 46 255"
 		"selectionColor_override" "51 47 46 255"
-		"selectionTextColor_override" "235 226 202 255"
+		"selectionTextColor_override" "255 255 255 255" //235 226 202
 		"defaultSelectionBG2Color_override" "51 47 46 255"
 		"border_default"			"BorderButton"
 		"border_armed"		"BorderButtonHover"
@@ -278,7 +278,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"246 237 211 255"
+		"fgcolor_override"	"255 255 255 255"
 	}
 	
 	"NumPlayersTextEntry"
@@ -305,7 +305,9 @@
 		"selectallonfirstfocus"	"1"
 		
 		"bgcolor_override"	"16 14 14 255"
-		"fgcolor_override"	"246 237 211 255"
+		"fgcolor_override"	"255 255 255 255"
+		"selectionColor_override" "51 47 46 255"
+		"selectionTextColor_override" "255 255 255 255"
 		"border"	"BorderButton"
 		
 	}
@@ -327,6 +329,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"246 237 211 255"
+		"fgcolor_override"	"255 255 255 255"
 	}
 }
