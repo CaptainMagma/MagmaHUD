@@ -4779,7 +4779,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "Blank" //TanLight
 					"offset" "0 1"
 				}
 			}
@@ -4788,7 +4788,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "Blank" //TanLight
 					"offset" "1 0"
 				}
 			}
@@ -4797,7 +4797,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "Blank" //TanLight
 					"offset" "0 0"
 				}
 			}
@@ -4806,7 +4806,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "Blank" //TanLight
 					"offset" "0 0"
 				}
 			}

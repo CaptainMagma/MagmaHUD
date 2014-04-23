@@ -153,12 +153,12 @@
 		"default"			"0"
 		
 		"fgcolor_override"	"255 255 255 255"
-		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "235 226 202 255"
-		"disabledBgColor_override" "0 0 0 0"
-		"selectionColor_override" "0 0 0 0"
+		"bgcolor_override"	"37 37 37 255"
+		"disabledFgColor_override" "255 255 255 255"
+		"disabledBgColor_override" "37 37 37 255"
+		"selectionColor_override" "37 37 37 255"
 		"selectionTextColor_override" "255 255 255 255"
-		"defaultSelectionBG2Color_override" "0 0 0 0"
+		"defaultSelectionBG2Color_override" "37 37 37 255"
 	}	
 	
 	"ShowBaseItemsCheckbox"
@@ -205,7 +205,7 @@
 		"ControlName"		"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
 		"xpos"		"c+137"
-		"ypos"		"15"
+		"ypos"		"16" //15
 		"wide"		"120"
 		"tall"		"16"
 		"autoResize"		"0"
@@ -216,8 +216,8 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"255 255 255 255"
+		"fgcolor_override"	"255 255 255 255"
+		"bgcolor_override"	"37 37 37 255"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmallest"
 	}
@@ -244,12 +244,12 @@
 		"default"			"0"
 		
 		"fgcolor_override"	"255 255 255 255"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"37 37 37 255"
 		"disabledFgColor_override" "255 255 255 255"
-		"disabledBgColor_override" "0 0 0 0"
-		"selectionColor_override" "0 0 0 0"
+		"disabledBgColor_override" "37 37 37 255"
+		"selectionColor_override" "37 37 37 255"
 		"selectionTextColor_override" "255 255 255 255"
-		"defaultSelectionBG2Color_override" "0 0 0 0"
+		"defaultSelectionBG2Color_override" "37 37 37 255"
 	}	
 	
 	"mouseoveritempanel"

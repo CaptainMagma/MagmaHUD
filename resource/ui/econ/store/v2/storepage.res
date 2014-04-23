@@ -171,8 +171,8 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"255 255 255 255"
+		"fgcolor_override"	"255 255 255 255"
+		"bgcolor_override"	"37 37 37 255 255"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmall"
 	}
@@ -201,12 +201,12 @@
 		"paintborder"		"1"
 		
 		"fgcolor_override"	"255 255 255 255"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"37 37 37 255"
 		"disabledFgColor_override" "255 255 255 255"
-		"disabledBgColor_override" "0 0 0 0"
-		"selectionColor_override" "0 0 0 0"
+		"disabledBgColor_override" "37 37 37 255"
+		"selectionColor_override" "37 37 37 255"
 		"selectionTextColor_override" "255 255 255 255"
-		"defaultSelectionBG2Color_override" "0 0 0 0"
+		"defaultSelectionBG2Color_override" "37 37 37 255"
 		
 	}
 	
@@ -234,12 +234,12 @@
 		"paintborder"		"1"
 		
 		"fgcolor_override"	"255 255 255 255"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"37 37 37 255"
 		"disabledFgColor_override" "255 255 255 255"
-		"disabledBgColor_override" "0 0 0 0"
-		"selectionColor_override" "0 0 0 0"
+		"disabledBgColor_override" "37 37 37 255"
+		"selectionColor_override" "37 37 37 255"
 		"selectionTextColor_override" "255 255 255 255"
-		"defaultSelectionBG2Color_override" "0 0 0 0"
+		"defaultSelectionBG2Color_override" "37 37 37 255"
 		
 	}
 	
