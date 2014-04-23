@@ -69,9 +69,9 @@
 		
 		
 			"paintbackground"	"1"
-			"defaultBgColor_override"	"15 15 15 255"
-			"armedBgColor_override"		"25 25 25 255"
-			"depressedBgColor_override"	"25 25 25 255"
+			"defaultBgColor_override"	"30 30 30 255" //15 15 15
+			"armedBgColor_override"		"40 40 40 255" //25 25 25
+			"depressedBgColor_override"	"40 40 40 255" //25 25 25
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override" 	"TanLight"
 			"depressedFgColor_override" "TanLight"
@@ -104,9 +104,9 @@
 		
 		
 			"paintbackground"	"1"
-			"defaultBgColor_override"	"15 15 15 255"
-			"armedBgColor_override"		"25 25 25 255"
-			"depressedBgColor_override"	"25 25 25 255"
+			"defaultBgColor_override"	"30 30 30 255" //15 15 15
+			"armedBgColor_override"		"40 40 40 255" //25 25 25
+			"depressedBgColor_override"	"40 40 40 255" //25 25 25
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override" 	"TanLight"
 			"depressedFgColor_override" "TanLight"
