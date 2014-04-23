@@ -151,8 +151,8 @@ Scheme
 		// training
 		"HudTrainingHint"			"212 160 23 255"
 		
-		"TanDark"				"117 107 94 255"
-		"TanLight"				"235 226 202 255"
+		"TanDark"				"100 100 100 255" //117 107 94 255
+		"TanLight"				"255 255 255 255" //235 226 202 255
 		"TanDarker"				"46 43 42 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
@@ -293,13 +293,13 @@ Scheme
 		Button.DepressedTextColor		"230 230 230 255"
 		Button.DepressedBgColor			"40 40 40 255"
 
-		CheckButton.TextColor			"Yellow"
-		CheckButton.SelectedTextColor	"Yellow"
+		CheckButton.TextColor			"OmpWhiteBG"
+		CheckButton.SelectedTextColor	"OmpWhiteBG"
 		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"Yellow" 		// the left checkbutton border
-		CheckButton.Border2  			"Yellow"		// the right checkbutton border
-		CheckButton.Check				"Yellow"		// color of the check itself
-		CheckButton.HighlightFgColor	"Yellow"
+		CheckButton.Border1  			"OmpWhiteBG" 		// the left checkbutton border
+		CheckButton.Border2  			"OmpWhiteBG"		// the right checkbutton border
+		CheckButton.Check				"OmpWhiteBG"		// color of the check itself
+		CheckButton.HighlightFgColor	"OmpWhiteBG"
 		
 		ComboBoxButton.ArrowColor		"TanLight"
 		ComboBoxButton.ArmedArrowColor	"TanLight"

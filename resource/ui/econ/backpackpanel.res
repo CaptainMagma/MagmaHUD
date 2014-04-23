@@ -152,12 +152,12 @@
 		"unicode"			"0"
 		"default"			"0"
 		
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"255 255 255 255"
 		"bgcolor_override"	"0 0 0 0"
 		"disabledFgColor_override" "235 226 202 255"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
+		"selectionTextColor_override" "255 255 255 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
 	
@@ -197,7 +197,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"235 226 202 255"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"NameFilterTextEntry"
@@ -217,7 +217,7 @@
 		"editable"		"1"
 		"unicode"		"1"
 		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
+		"bgcolor_override"	"255 255 255 255"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmallest"
 	}
@@ -243,12 +243,12 @@
 		"unicode"			"0"
 		"default"			"0"
 		
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"255 255 255 255"
 		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "235 226 202 255"
+		"disabledFgColor_override" "255 255 255 255"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
+		"selectionTextColor_override" "255 255 255 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
 	

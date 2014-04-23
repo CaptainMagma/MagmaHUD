@@ -242,7 +242,8 @@
 					"tabPosition"		"0"
 					"PaintBackgroundType"	"0"
 					"paintbackground"		"1"
-					"border"				"MainMenuBGBorder"
+					"border"				"FluxsBorderTab"
+					"bgcolor_override"		"40 40 40 255"
 		
 					"Background"
 					{
@@ -831,7 +832,7 @@
 			"border_default"			"BorderButton"
 			"border_armed"				"BorderButtonHover"
 		
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
