@@ -250,7 +250,7 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#CraftConfirm"
-			"font"			"FuturaHeavy22" //Futura24
+			"font"			"FuturaHeavy28" //Futura24
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
