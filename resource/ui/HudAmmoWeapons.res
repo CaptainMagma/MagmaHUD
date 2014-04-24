@@ -85,8 +85,8 @@
 		"fieldName"		"AmmoInReserve"
 		"font"			"FuturaHeavy22" //Futura24
 		"fgcolor"		"OmpAmmoReserve"
-		"xpos"			"57" //67
-		"ypos"			"65" //49
+		"xpos"			"57" //57
+		"ypos"			"61" //65
 		"zpos"			"7"
 		"wide"			"64"
 		"tall"			"33"
@@ -108,7 +108,7 @@
 		"font"			"FuturaHeavy22"
 		"fgcolor"		"OmpShadow"
 		"xpos"			"58" //68
-		"ypos"			"66" //50
+		"ypos"			"62" //66
 		"zpos"			"7"
 		"wide"			"64"
 		"tall"			"33"
@@ -129,8 +129,8 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"FuturaHeavy38"
 		"fgcolor"		"AmmoClipColor"
-		"xpos"			"-10" //-10
-		"ypos"			"53" //37
+		"xpos"			"-30" //-10
+		"ypos"			"54" //53
 		"zpos"			"5"
 		"wide"			"130"
 		"tall"			"56"
@@ -151,8 +151,8 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"FuturaHeavy38"
 		"fgcolor"		"OmpShadow"
-		"xpos"			"-9"
-		"ypos"			"54" //38
+		"xpos"			"-29" //-9
+		"ypos"			"55" //54
 		"zpos"			"5"
 		"wide"			"130"
 		"tall"			"56"

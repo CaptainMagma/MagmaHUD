@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c110"
-		"ypos"			"c150"
+		"xpos"			"c150" //c110
+		"ypos"			"c134" //c150
 		"wide"			"80"
 		"tall"			"20"
 		"MeterFG"		"White"
@@ -24,17 +24,17 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"		"30 30 30 175"			
+		"fillcolor"		"30 30 30 175"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"5"
-		"ypos"					"0"
+		"xpos"					"20" //5
+		"ypos"					"1" //0
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"
@@ -47,8 +47,30 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Futura9"
+		"font"					"FuturaHeavy10" //Futura11
 		"fgcolor_override"		"OmpText"
+	}
+
+	"ItemEffectMeterLabelShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabelShadow"
+		"xpos"					"21" //5
+		"ypos"					"2" //0
+		"zpos"					"1"
+		"wide"					"40"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"CRITS"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"FuturaHeavy10"
+		"fgcolor_override"		"0 0 0 255"
 	}
 
 	"ItemEffectMeter"
@@ -74,8 +96,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"45"
-		"ypos"					"0"
+		"xpos"					"-13" //45
+		"ypos"					"0" //0
 		"zpos"					"2"
 		"wide"					"30"
 		"tall"					"20"	
@@ -87,7 +109,27 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Futura20"
-		"fgcolor"				"OmpText"
+		"font"					"FuturaHeavy14"
+		"fgcolor"				"OmpAmmoReserve" //OmpText
+	}
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountShadow"
+		"xpos"					"-12" //45
+		"ypos"					"1" //0
+		"zpos"					"1"
+		"wide"					"30"
+		"tall"					"20"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"east"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"FuturaHeavy14"
+		"fgcolor"				"0 0 0 255"
 	}
 }

@@ -2629,6 +2629,36 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"FuturaHeavy9"
+		{
+			"1"
+			{
+				"name"		"Roboto Medium"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FuturaHeavy10"
+		{
+			"1"
+			{
+				"name"		"Roboto Medium"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FuturaHeavy11"
+		{
+			"1"
+			{
+				"name"		"Roboto Medium"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"FuturaHeavy12"
 		{
 			"1"
@@ -2699,6 +2729,26 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 				"weight"	"500"
+			}
+		}
+		"FuturaHeavy17"
+		{
+			"1"
+			{
+				"name"		"Roboto Medium"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FuturaHeavy18"
+		{
+			"1"
+			{
+				"name"		"Roboto Medium"
+				"tall"		"19"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 		}
 		"FuturaHeavy19"
