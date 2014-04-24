@@ -292,7 +292,7 @@
     		"tall"	 			"f0"
     		"visible"			"1"
     		"enabled"			"1"
-    		"fillcolor"			"40 40 40 255"
+    		"fillcolor"			"30 30 30 255"
     		}
 		
 		"attriblabel"

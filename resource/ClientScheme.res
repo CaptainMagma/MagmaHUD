@@ -5178,7 +5178,7 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"backpack_rect_mouseover_color" //loadout_rect
-			"color"				"OmpDarkBG"
+			"color"				"35 35 35 255" //OmpDarkBG
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5201,7 +5201,7 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"backpack_rect_mouseover_color" //loadout_rect_mouseover
-			"color"				"OmpDarkBG"
+			"color"				"35 35 35 255"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
