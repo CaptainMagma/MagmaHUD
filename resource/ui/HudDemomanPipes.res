@@ -122,7 +122,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"FuturaHeavy18"
+			"font"			"FuturaHeavy22"
 			"fgcolor"		"OmpDemoPipes"
 			
 			"wide_minmode"			"99"
@@ -145,7 +145,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"FuturaHeavy18"
+			"font"			"FuturaHeavy22"
 			"fgcolor"		"OmpShadow"
 			
 			"wide_minmode"			"99"
