@@ -96,7 +96,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsFoundLabel"
-		"font"			"FuturaHeavy36" //HudFontMediumBigBold
+		"font"			"FuturaHeavy32" //HudFontMediumBigBold
 		"labelText"		"#NewItemsAcquired"
 		"textAlignment"	"center"
 		"fgcolor"		"TanLight"

@@ -273,7 +273,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"AveragesLabel"
-			"font"			"ScoreboardMedium"
+			"font"			"FuturaHeavy22" //ScoreboardMedium
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"		"west"
 			"textAlignment_hidef"		"center"

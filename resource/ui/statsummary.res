@@ -211,7 +211,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"FuturaHeavy36" //HudFontMediumBigBold
+		"font"			"FuturaHeavy32" //HudFontMediumBigBold
 		"labelText"		"%maplabel%"
 		"textAlignment"		"center"
 		"xpos"			"c-25"
@@ -434,7 +434,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"AveragesLabel"
-			"font"			"ScoreboardMedium"
+			"font"			"FuturaHeavy22"
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"		"west"
 			"textAlignment_hidef"		"center"
