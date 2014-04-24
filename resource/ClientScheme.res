@@ -1054,9 +1054,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Standard"
-				"tall"		"9"
-				"weight"	"0"
+				"name"		"Roboto Medium"
+				"tall"		"10"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1065,9 +1065,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Standard"
-				"tall"		"9"
-				"weight"	"0"
+				"name"		"Roboto Medium"
+				"tall"		"10"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1087,8 +1087,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Standard"
-				"tall"		"12"
+				"name"		"Roboto Medium"
+				"tall"		"14"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
 				"weight"	"400"
@@ -5626,7 +5626,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "Blank" //TanDarker
 					"offset" "0 1"
 				}
 			}
@@ -5635,7 +5635,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "Blank" //TanDarker
 					"offset" "1 0"
 				}
 			}
@@ -5644,7 +5644,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "Blank" //TanDarker
 					"offset" "0 0"
 				}
 			}
@@ -5653,7 +5653,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "Blank" //TanDarker
 					"offset" "0 0"
 				}
 			}
@@ -5666,7 +5666,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "Blank" //TanDarker
 					"offset" "0 1"
 				}
 			}
@@ -5675,7 +5675,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "Blank" //TanDarker
 					"offset" "1 0"
 				}
 			}
@@ -5684,7 +5684,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "Blank" //TanDarker
 					"offset" "0 0"
 				}
 			}
@@ -5693,7 +5693,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "Blank" //TanDarker
 					"offset" "0 0"
 				}
 			}
@@ -5706,7 +5706,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "Blank" //TanDarker
 					"offset" "0 1"
 				}
 			}
@@ -5715,7 +5715,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "Blank" //TanDarker
 					"offset" "1 0"
 				}
 			}
@@ -5724,7 +5724,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "Blank" //TanDarker
 					"offset" "0 0"
 				}
 			}
@@ -5733,7 +5733,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "Blank" //TanDarker
 					"offset" "0 0"
 				}
 			}

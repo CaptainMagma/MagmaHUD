@@ -87,7 +87,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"96 90 85 255"
+		"fgcolor"		"150 150 150 255" //96 90 85
 	}
 	
 	"LearnMoreButton"
@@ -112,13 +112,13 @@
 		"Command"		"maps_learnmore"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"defaultBgColor_override"	"40 40 40 255"
-		"armedBgColor_override"		"35 35 35 255"
-		"depressedBgColor_override"	"40 40 40 255"
+		"defaultBgColor_override"	"35 35 35 255"
+		"armedBgColor_override"		"25 25 25 255"
+		"depressedBgColor_override"	"35 35 35 255"
 		"defaultFgColor_override"	"230 230 230 255"
 		"armedFgColor_override" 	"230 230 230 255"
 		"depressedFgColor_override" "38 38 38 255"
-		"border_default"			"BorderButton"
-		"border_armed"				"BorderButtonHover"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}	
 }

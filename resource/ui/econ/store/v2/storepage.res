@@ -33,16 +33,16 @@
 		"item_controls_yoffset"	"2"
 
 		"show_item_backdrop"				"1"
-		"item_backdrop_color"				"24 22 20 255"
+		"item_backdrop_color"				"35 35 35 255" //24 22 20
 		"item_backdrop_left_margin"			"11"
 		"item_backdrop_right_margin"		"11"
 		"item_backdrop_top_margin"			"9"
 		"item_backdrop_bottom_margin"		"42"
-		"item_backdrop_paintbackgroundtype"	"2"
+		"item_backdrop_paintbackgroundtype"	"0"
 		
-		"item_panel_bgcolor"			"51 47 46 255"
-		"item_panel_bgcolor_mouseover"	"156 146 128 255"
-		"item_panel_bgcolor_selected"	"176 166 148 255"
+		"item_panel_bgcolor"			"45 45 45 255" //51 47 46
+		"item_panel_bgcolor_mouseover"	"50 50 50 255" //156 146 128
+		"item_panel_bgcolor_selected"	"50 50 50 255" //176 166 148
 		
 		"classicon_xdelta"		"5"
 
@@ -57,7 +57,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 						
 			"model_xpos"	"24"
@@ -90,7 +90,7 @@
 		
 		"modelpanel_labels_kv"
 		{
-			"font"			"HudFontSmallest"
+			"font"			"HudFontSmallestBold"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -275,7 +275,7 @@
     			"tall"	 			"f0"
     			"visible"			"1"
     			"enabled"			"1"
-    			"fillcolor"			"40 40 40 255"
+    			"fillcolor"			"30 30 30 255"
 
 			"attriblabel"
 			{
@@ -337,7 +337,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"<"
+		"labelText"		"&A"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -345,14 +345,14 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"defaultBgColor_override"	"40 40 40 255"
-		"armedBgColor_override"		"35 35 35 255"
-		"depressedBgColor_override"	"40 40 40 255"
+		"defaultBgColor_override"	"45 45 45 255"
+		"armedBgColor_override"		"50 50 50 255"
+		"depressedBgColor_override"	"45 45 45 255"
 		"defaultFgColor_override"	"230 230 230 255"
 		"armedFgColor_override" 	"230 230 230 255"
-		"depressedFgColor_override" "38 38 38 255"
-		"border_default"			"BorderButton"
-		"border_armed"				"BorderButtonHover"
+		"depressedFgColor_override" "90 90 90 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}		
 	
 	"CurPageLabel"
@@ -388,7 +388,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		">"
+		"labelText"		"&D"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -396,14 +396,14 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"defaultBgColor_override"	"40 40 40 255"
-		"armedBgColor_override"		"35 35 35 255"
-		"depressedBgColor_override"	"40 40 40 255"
+		"defaultBgColor_override"	"45 45 45 255"
+		"armedBgColor_override"		"50 50 50 255"
+		"depressedBgColor_override"	"45 45 45 255"
 		"defaultFgColor_override"	"230 230 230 255"
 		"armedFgColor_override" 	"230 230 230 255"
-		"depressedFgColor_override" "38 38 38 255"
-		"border_default"			"BorderButton"
-		"border_armed"				"BorderButtonHover"
+		"depressedFgColor_override" "90 90 90 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}	
 	
 	"PriceLabel"
@@ -744,14 +744,14 @@
 		"font"			"HudFontSmallBold"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"defaultBgColor_override"	"40 40 40 255"
-		"armedBgColor_override"		"35 35 35 255"
-		"depressedBgColor_override"	"40 40 40 255"
+		"defaultBgColor_override"	"35 35 35 255"
+		"armedBgColor_override"		"25 25 25 255"
+		"depressedBgColor_override"	"35 35 35 255"
 		"defaultFgColor_override"	"230 230 230 255"
 		"armedFgColor_override" 	"230 230 230 255"
 		"depressedFgColor_override" "38 38 38 255"
-		"border_default"			"BorderButton"
-		"border_armed"				"BorderButtonHover"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	
 	"CartImage"

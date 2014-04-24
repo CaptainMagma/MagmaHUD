@@ -17,7 +17,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Price"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontMediumSmallBold" //HudFontSmallestBold
 		"textAlignment"	"east"
 		"xpos"			"0"
 		"ypos"			"56"
@@ -37,7 +37,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OG_Price"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontMediumSmallBold" //HudFontSmallestBold
 		"textAlignment"	"east"
 		"xpos"			"0"
 		"ypos"			"46"
