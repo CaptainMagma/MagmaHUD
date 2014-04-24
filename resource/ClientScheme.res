@@ -2386,6 +2386,17 @@ Scheme
 		//
 		//////////////////// ECON FONTS //////////////////////////////
 		//
+		"NotoBold24"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"24"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		
 		"EconFontSmall"
 		{
 			"1"
@@ -6285,6 +6296,12 @@ Scheme
 		{
 			"font" "resource/crosshairs.ttf"
 			"name" "broeselhud Crosshairs"
+		}
+		"23" // Open Sans Bold
+		{
+		
+			"font" "resource/OpenSansBold.ttf"
+			"name" "Open Sans Bold"
 		}
 	}
 }
