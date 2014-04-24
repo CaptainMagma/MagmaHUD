@@ -193,7 +193,7 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#CraftConfirm"
-			"font"			"HudFontMediumBold"
+			"font"			"FuturaHeavy28"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -382,7 +382,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#Cancel"
-			"font"			"HudFontMediumBold"
+			"font"			"FuturaHeavy28" //HudFontMediumBold
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
