@@ -79,7 +79,8 @@
 				"enabled"		"1"
 				"labelText"		"%itemname%"
 				"textAlignment"	"south"
-				"fgcolor"		"235 226 202 255"
+				"fgcolor"		"230 230 230 255"
+				"bgcolor"		"30 30 30 255"
 				"wrap"			"1"
 				"centerwrap"	"1"
 			}
@@ -87,7 +88,7 @@
 		}
 		"recipebuttons_kv"
 		{
-			"font"			"Futura11"
+			"font"			"Futura11" //Futura11
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -100,11 +101,11 @@
 			"centerwrap"	"0"
 			"textAlignment" "west"
 			"textinsetx"	"0"
-			"defaultFgColor_override" "117 107 94 255"
+			"defaultFgColor_override" "230 230 230 255"
 			"defaultBgColor_override" "0 0 0 0"
-			"armedFgColor_override" "230 230 230 255"
+			"armedFgColor_override" "180 180 180 255"
 			"armedBgColor_override" "0 0 0 0"
-			"depressedFgColor_override" "230 230 230 255"
+			"depressedFgColor_override" "180 180 180 255"
 			"depressedBgColor_override" "0 0 0 0"
 		}
 		"filter_xoffset"	"-290"
@@ -135,7 +136,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"Futura14"
+		"font"			"Futura14" //Futura14
 		"labelText"		"#CraftStep1"
 		"textAlignment"	"north-west"
 		"xpos"			"c-290"
@@ -147,7 +148,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 187 161 255"
+		"fgcolor_override" "230 230 230 255" //200 187 161
 	}
 	"selectedrecipecontainer"
 	{
@@ -176,14 +177,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"200 187 161 255"
+			"fgcolor"		"230 230 230 255" //200 187 161
 			"wrap"			"1"
 		}
 		"RecipeInputStringLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeInputStringLabel"
-			"font"			"Futura14" //FuturaCn20
+			"font"			"Futura11" //FuturaCn20
 			"labelText"		"%recipeinputstring%"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -195,7 +196,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"130 130 130 255"
+			"fgcolor"		"154 205 255 255"
 			"wrap"			"1"
 		}
 		"InputLabel"
@@ -214,7 +215,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"230 230 230 255" //117 107 94
 		}
 		"OutputLabel"
 		{
@@ -232,7 +233,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"230 230 230 255" //117 107 94
 		}
 		"CraftButton"
 		{
@@ -249,7 +250,7 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#CraftConfirm"
-			"font"			"Futura24"
+			"font"			"FuturaHeavy22" //Futura24
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -325,7 +326,7 @@
 		"wide"			"280"
 		"tall"			"240"
 		"PaintBackgroundType"	"2"
-		"fgcolor_override"	"59 54 48 255"
+		"fgcolor_override"	"220 220 220 255" //59 54 48
 		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons" "1"
 	}
@@ -372,7 +373,7 @@
     		"tall"	 			"f0"
     		"visible"			"1"
     		"enabled"			"1"
-    		"fillcolor"			"40 40 40 255"
+    		"fillcolor"			"30 30 30 255"
 			
 			"attriblabel"
 			{
@@ -430,13 +431,13 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
-		"bgcolor_override"	"200 187 161 0"
+		"border"		"NoBorder" //MainMenuBGBorder
+		"bgcolor_override"	"30 30 30 255"
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"Futura11"
+			"font"			"FuturaHeavy15" //Futura11
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -448,7 +449,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"230 230 230 255"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}
