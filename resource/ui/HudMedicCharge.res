@@ -190,11 +190,11 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
-		"xpos"			"c130" //c-100
+		"xpos"			"c118" //c-100
 		"ypos"			"118" //150
 		"zpos"			"2"
-		"wide"			"38" //48
-		"tall"			"17" //5
+		"wide"			"42" //48
+		"tall"			"19" //5
 		"border"		"ChargeBorderVacc"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -216,11 +216,11 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
-		"xpos"			"c167" //c-50
+		"xpos"			"c158" //c-50
 		"ypos"			"118"
 		"zpos"			"2"
-		"wide"			"38"
-		"tall"			"17"
+		"wide"			"42"
+		"tall"			"19"
 		"border"		"ChargeBorderVacc"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -242,11 +242,11 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
-		"xpos"			"c130" //c0
-		"ypos"			"134"
+		"xpos"			"c118" //c0
+		"ypos"			"135"
 		"zpos"			"2"
-		"wide"			"38"
-		"tall"			"17"
+		"wide"			"42"
+		"tall"			"19"
 		"border"		"ChargeBorderVacc"			
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -268,11 +268,11 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
-		"xpos"			"c167" //c50
-		"ypos"			"134"
+		"xpos"			"c158" //c50
+		"ypos"			"135"
 		"zpos"			"2"
-		"wide"			"38" //50
-		"tall"			"17"
+		"wide"			"42" //50
+		"tall"			"19"
 		"border"		"ChargeBorderVacc"			
 		"autoResize"	"0"
 		"pinCorner"		"0"
