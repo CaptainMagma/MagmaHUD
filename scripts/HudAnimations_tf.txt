@@ -715,22 +715,22 @@ event HasNotificationsBlinkStop
 
 event AddToCartBlink
 {
-	Animate	CartButton	BgColor	"TanDark"		Linear 0.0 0.01
+	Animate	CartButton	BgColor	"35 35 35 255"		Linear 0.0 0.01
 	Animate	CartButton	BgColor	"255 150 0 255"	Linear 0.1 0.01
 		
-	Animate	CartButton 	BgColor	"TanDark"		Linear 0.2 0.01
+	Animate	CartButton 	BgColor	"35 35 35 255"		Linear 0.2 0.01
 	Animate	CartButton 	BgColor	"255 150 0 255"	Linear 0.3 0.01
 	
-	Animate	CartButton 	BgColor	"TanDark"		Linear 0.4 0.01
+	Animate	CartButton 	BgColor	"35 35 35 255"		Linear 0.4 0.01
 	Animate	CartButton 	BgColor	"255 150 0 255"	Linear 0.5 0.01
 	
-	Animate	CartButton	BgColor	"TanDark"		Linear 0.6 0.01
+	Animate	CartButton	BgColor	"35 35 35 255"		Linear 0.6 0.01
 	Animate	CartButton	BgColor	"255 150 0 255"	Linear 0.7 0.01
 		
-	Animate	CartButton 	BgColor	"TanDark"		Linear 0.8 0.01
+	Animate	CartButton 	BgColor	"35 35 35 255"		Linear 0.8 0.01
 	Animate	CartButton 	BgColor	"255 150 0 255"	Linear 0.9 0.01
 	
-	Animate	CartButton 	BgColor	"TanDark"		Linear 1.0 0.01
+	Animate	CartButton 	BgColor	"35 35 35 255"		Linear 1.0 0.01
 }
 
 //===========================================

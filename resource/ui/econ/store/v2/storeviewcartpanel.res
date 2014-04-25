@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 0"
-		"infocus_bgcolor_override"		"46 43 42 0"
-		"outoffocus_bgcolor_override"	"46 43 42 0"
+		"bgcolor_override"	"45 45 45 255" //60 60 60 (same for next two down)
+		"infocus_bgcolor_override" "45 45 45 255"
+		"outoffocus_bgcolor_override" "45 45 45 255"
 		
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
@@ -76,7 +76,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldname"		"quantitylabel"
-				"font"			"HudFontSmallest"
+				"font"			"Futura12" //HudFontSmallest
 				"textAlignment"	"north-east"
 				"xpos"			"70"
 				"ypos"			"45"
@@ -101,8 +101,10 @@
 				"tall"			"5"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"loadout_solid_line"
-				"tileImage"		"1"
+				//"image"			"loadout_solid_line"
+				//"tileImage"		"1"
+				"fillcolor"		"25 25 25 255"
+				"border"		"SeparatorBorder"
 			}			
 			
 			"RemoveButton"
@@ -128,21 +130,21 @@
 				"Command"		"remove"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				"defaultBgColor_override"	"40 40 40 255"
-				"armedBgColor_override"		"35 35 35 255"
-				"depressedBgColor_override"	"40 40 40 255"
+				"defaultBgColor_override"	"35 35 35 255"
+				"armedBgColor_override"		"30 30 30 255"
+				"depressedBgColor_override"	"35 35 35 255"
 				"defaultFgColor_override"	"230 230 230 255"
 				"armedFgColor_override" 	"230 230 230 255"
 				"depressedFgColor_override" "38 38 38 255"
-				"border_default"			"BorderButton"
-				"border_armed"				"BorderButtonHover"
+				"border_default"			"NoBorder"
+				"border_armed"				"NoBorder"
 			}	
 			
 			"PriceLabel"
 			{
 				"ControlName"	"Label"
 				"fieldname"		"PriceLabel"
-				"font"			"FontCartPrice"
+				"font"			"FuturaHeavy16"
 				"textAlignment"	"east"
 				"xpos"			"475"
 				"ypos"			"0"
@@ -247,7 +249,7 @@
 		"ypos"			"55"
 		"wide"			"f0"
 		"tall"			"368"
-		"bgcolor_override"				"46 43 42 255"
+		"bgcolor_override"				"45 45 45 255"
 		
 		"HeaderLine"
 		{
@@ -271,7 +273,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CartItemsLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"FuturaHeavy19" //HudFontMediumBold
 			"labelText"		"%storecart%"
 			"textAlignment"	"west"
 			"xpos"			"c-300"
@@ -294,7 +296,7 @@
 			"zpos"			"5"
 			"wide"			"600"
 			"tall"			"5"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"tileImage"		"1"
@@ -304,7 +306,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"EmptyCartLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"FuturaHeavy28" //HudFontSmallBold
 			"labelText"		"#Store_CartIsEmpty"
 			"textAlignment"	"center"
 			"xpos"			"c-300"
@@ -328,8 +330,8 @@
 			"wide"			"600"
 			"tall"			"240"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"118 107 94 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
-			"bgcolor_override"	"51 47 46 255"
+			"fgcolor_override"	"230 230 230 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
+			"bgcolor_override"	"45 45 45 255"
 			"autohide_buttons" "1"
 			
 			"Scrollbar"
@@ -403,7 +405,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"EstimatedTotalLabel"
-						"font"			"HudFontSmall"
+						"font"			"Futura14" //HudFontSmall
 						"labelText"		"#Store_EstimatedTotal"
 						"textAlignment"	"south-east"
 						"xpos"			"0"
@@ -420,7 +422,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"WashingtonStateSalesTaxLabel"
-						"font"			"HudFontSmallest"
+						"font"			"Futura12" //HudFontSmallest
 						"labelText"		"#Store_WAStateSalesTax"
 						"textAlignment"	"north-east"
 						"xpos"			"0"
@@ -438,7 +440,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"TotalSubtextLabelB"
-						"font"			"HudFontSmallest"
+						"font"			"Futura12" //HudFontSmallest
 						"labelText"		"#Store_TotalSubtextB"
 						"textAlignment"	"north-east"
 						"xpos"			"0"
@@ -457,7 +459,7 @@
 					{
 						"ControlName"	"Label"
 						"fieldname"		"TotalPriceLabel"
-						"font"			"FontCartPrice"
+						"font"			"FuturaHeavy16"// FontCartPrice
 						"textAlignment"	"east"
 						"xpos"			"475"
 						"ypos"			"0"
@@ -469,7 +471,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"labelText"		"%totalprice%"
-						"fgcolor_override" "130 120 104 255"
+						"fgcolor_override" "230 230 230 255"
 					}
 					
 				}

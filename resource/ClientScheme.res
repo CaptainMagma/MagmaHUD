@@ -4156,6 +4156,23 @@ Scheme
 				}
 			}
 		}
+		SeparatorBorder
+		{
+			"inset" "0 0 1 1"
+			Top
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "130 130 130 255"
+					"offset" "0 0"
+				}
+			}
+		}
 		BorderButton
 		{
 			"inset" "0 0 1 1"
