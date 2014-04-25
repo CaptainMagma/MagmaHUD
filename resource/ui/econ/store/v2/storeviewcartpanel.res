@@ -273,7 +273,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CartItemsLabel"
-			"font"			"FuturaHeavy19" //HudFontMediumBold
+			"font"			"FuturaHeavy20" //HudFontMediumBold
 			"labelText"		"%storecart%"
 			"textAlignment"	"west"
 			"xpos"			"c-300"
