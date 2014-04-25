@@ -107,7 +107,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"FuturaHeavy14"
-		"fgcolor"		"OmpAmmoClip"
+		"fgcolor"		"0 0 0 0" //OmpAmmoClip
 		
 		"xpos_minmode"	"c-45"
 		"ypos_minmode"	"60" // omp -- -6 Mac fix.
@@ -190,12 +190,12 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
-		"xpos"			"c-100"
-		"ypos"			"150"
+		"xpos"			"c130" //c-100
+		"ypos"			"118" //150
 		"zpos"			"2"
-		"wide"			"48"
-		"tall"			"5"
-		"border"		"ChargeBorder"				
+		"wide"			"38" //48
+		"tall"			"17" //5
+		"border"		"ChargeBorderVacc"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -203,7 +203,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override"	"OmpDarkBG" //0 0 0 0
+		"bgcolor_override"	"OmpDarkestBG"
 		"fgcolor_override"	"255 255 255 255"
 		
 		"xpos_minmode"			"c-50"
@@ -216,12 +216,12 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
-		"xpos"			"c-50"
-		"ypos"			"150"
+		"xpos"			"c167" //c-50
+		"ypos"			"118"
 		"zpos"			"2"
-		"wide"			"48"
-		"tall"			"5"
-		"border"		"ChargeBorder"				
+		"wide"			"38"
+		"tall"			"17"
+		"border"		"ChargeBorderVacc"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -229,7 +229,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override"	"OmpDarkBG"
+		"bgcolor_override"	"OmpDarkestBG"
 		"fgcolor_override"	"255 255 255 255"
 		
 		"xpos_minmode"			"c-25"
@@ -242,12 +242,12 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
-		"xpos"			"c0"
-		"ypos"			"150"
+		"xpos"			"c130" //c0
+		"ypos"			"134"
 		"zpos"			"2"
-		"wide"			"48"
-		"tall"			"5"
-		"border"		"ChargeBorder"			
+		"wide"			"38"
+		"tall"			"17"
+		"border"		"ChargeBorderVacc"			
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -255,7 +255,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override"	"OmpDarkBG"
+		"bgcolor_override"	"OmpDarkestBG"
 		"fgcolor_override"	"255 255 255 255"
 		
 		"xpos_minmode"			"c0"
@@ -268,12 +268,12 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
-		"xpos"			"c50"
-		"ypos"			"150"
+		"xpos"			"c167" //c50
+		"ypos"			"134"
 		"zpos"			"2"
-		"wide"			"50" //48
-		"tall"			"5"
-		"border"		"ChargeBorder"			
+		"wide"			"38" //50
+		"tall"			"17"
+		"border"		"ChargeBorderVacc"			
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -281,7 +281,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override"	"OmpDarkBG"
+		"bgcolor_override"	"OmpDarkestBG"
 		"fgcolor_override"	"255 255 255 255"
 		
 		"xpos_minmode"			"c25"
