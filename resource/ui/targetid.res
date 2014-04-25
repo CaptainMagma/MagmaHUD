@@ -20,7 +20,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0" //9999
-		"ypos"			"-36" //9999
+		"ypos"			"38" //-36
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"50"
@@ -47,7 +47,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"0"
-		"ypos"			"-36"
+		"ypos"			"38" //-36
 		"zpos"			"-1"
 		"wide"			"640"
 		"tall"	 		"40"
@@ -69,7 +69,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"0"
-		"ypos"			"-36"
+		"ypos"			"38"
 		"zpos"			"-1"
 		"wide"			"640"
 		"tall"	 		"40"
@@ -114,7 +114,7 @@
 		"font"			"Futura9"
 		"fgcolor"		"OmpText"
 		"xpos"			"34"
-		"ypos"			"27"
+		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"9"
@@ -164,7 +164,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"30"
-		"ypos"			"27"
+		"ypos"			"28"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
