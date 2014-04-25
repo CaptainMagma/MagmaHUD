@@ -37,16 +37,17 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "MainBG"
-        "xpos"          "c-231" //c-227
-        "ypos"          "c4"
+        "xpos"          "c-232" //c-227
+        "ypos"          "c2" //c4
         "zpos"          "-1"
-        "wide"          "458" //450
-        "tall"          "174" //172
+        "wide"          "459" //458
+        "tall"          "176" //174
         "autoResize"    "0"
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
         "fillcolor"     "0 0 0 130"
+	"border"	"NoBorder"
 
 	if_mvm
         {
@@ -54,7 +55,6 @@
 		"ypos"	"c-110"
 		"wide"	"550"
 		"tall"	"207"
-	
         }
     }                           
     "BlueTeamLabel"
@@ -89,7 +89,7 @@
         "labelText" "VS"
         "textAlignment" "center"
         "xpos"      "c-203" //c-200
-        "ypos"      "c-20"  [$WIN32]
+        "ypos"      "c-22"  [$WIN32] //c-20
         "zpos"      "3"
         "wide"      "400"
         "tall"      "40"
@@ -161,7 +161,7 @@
         "textAlignment"     "west"
         "textinsetx"        "20"
         "xpos"          "c-228"
-        "ypos"          "c-12"
+        "ypos"          "c-14" //c-12
         "wide"          "100"
         "tall"          "20"
         "autoResize"        "0"
@@ -255,7 +255,7 @@
         "textAlignment"     "east"
         "textinsetx"        "20"
         "xpos"          "c25"
-        "ypos"          "c-12"
+        "ypos"          "c-14" //c-12
         "wide"          "200"
         "tall"          "20"
         "autoResize"    "0"
@@ -320,7 +320,7 @@
     {
         "ControlName"   "SectionedListPanel"
         "fieldName"     "BluePlayerList"
-        "xpos"          "c-232" //c-227
+        "xpos"          "c-233" //c-232
         "ypos"          "c0"
         "zpos"          "20"
         "wide"          "230" //230
@@ -427,6 +427,7 @@
         "enabled"       "1" 
         "fillcolor"     "0 0 0 130"
         "PaintBackgroundType"   "0"
+	"border"	"NoBorder"
     }
     "ClassImage"
     {
