@@ -501,7 +501,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectLabel"
-		"font"			"FuturaHeavy24" //Futura24
+		"font"			"Futura24"
 		"labelText"		"#SelectClassLoadout"
 		"textAlignment"	"north"
 		"xpos"			"0"
