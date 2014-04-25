@@ -2782,6 +2782,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"FuturaHeavyOutline20"
+		{
+			"1"
+			{
+				"name"		"Roboto Medium"
+				"tall"		"21"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
 		"FuturaHeavy22"
 		{
 			"1"
@@ -2792,15 +2803,14 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"FuturaHeavyOutline20"
+		"FuturaHeavy24"
 		{
 			"1"
 			{
 				"name"		"Roboto Medium"
-				"tall"		"21"
+				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
-				"dropshadow"	"1"
 			}
 		}
 		"FuturaHeavy28"
