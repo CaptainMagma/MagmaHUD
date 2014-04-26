@@ -115,7 +115,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectedItemFoundMethodLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"FuturaHeavy16" //HudFontMediumSmallBold
 		"fgcolor"		"TanLight"
 		"labelText"		""
 		"textAlignment"	"center"
@@ -134,7 +134,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemCountLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallestBold" //HudFontSmallestBold
 		"labelText"		"#Item"
 		"textAlignment"	"north-west"
 		"xpos"			"c-245"
@@ -151,7 +151,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SelectedItemNumberLabel"
-		"font"			"HudFontMediumBigBold"
+		"font"			"FuturaHeavy22" //HudFontMediumBigBold
 		"labelText"		"#SelectedItemNumber"
 		"textAlignment"	"north-west"
 		"xpos"			"c-245"
@@ -263,8 +263,8 @@
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
 		"depressedFgColor_override" "TanLight"
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"BorderButton"
+		"border_armed"				"BorderButtonHover"
 	}
 	"OpenLoadoutButton"
 	{
@@ -295,8 +295,8 @@
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
 		"depressedFgColor_override" "TanLight"
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"BorderButton"
+		"border_armed"				"BorderButtonHover"
 	}
 	
 	"DiscardButton"
