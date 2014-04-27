@@ -24,7 +24,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Futura20"
+			"font"			"Futura22"
 			"fgcolor"		"OmpText"
 			"xpos"			"52"
 			"ypos"			"0"
@@ -61,7 +61,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Futura20"
+			"font"			"Futura22"
 			"fgcolor"		"OmpText"
 			"xpos"			"52"
 			"ypos"			"0"
