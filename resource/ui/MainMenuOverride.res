@@ -245,7 +245,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"FuturaHeavy16" //HudFontSmallBold
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
