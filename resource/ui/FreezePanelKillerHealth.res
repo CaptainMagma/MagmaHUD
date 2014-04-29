@@ -67,7 +67,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"font" 			"Futura16"
+		"font" 			"FuturaHeavy13" //Futura16
 		"fgcolor"		"OmpSpecHP"
 		"textAlignment"	"center"		
 	}
@@ -76,14 +76,14 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueFreezeBackground"
 		"xpos"			"4"
-		"ypos"			"3"
+		"ypos"			"4"
 		"zpos"			"5"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"25"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"font" 			"Futura16"
+		"font" 			"FuturaHeavy13" //Futura16
 		"fgcolor"		"0 0 0 255"
 		"textAlignment"	"center"	
 	}			
