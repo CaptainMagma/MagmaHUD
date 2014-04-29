@@ -86,11 +86,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"Futura24"
+		"font"			"FuturaHeavy24"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-310"
-		"ypos"			"15"
+		"ypos"			"30" //15
 		"zpos"			"1"
 		"wide"			"480"
 		"tall"			"25"
@@ -108,7 +108,7 @@
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c+175"
-		"ypos"			"13"
+		"ypos"			"18" //13
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"20"
@@ -124,7 +124,7 @@
 		"ControlName"		"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
 		"xpos"		"c+175"
-		"ypos"		"29"
+		"ypos"		"34" //
 		"zpos"		"2"
 		"wide"		"120"
 		"tall"		"16"
@@ -145,11 +145,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"Futura20"
+		"font"			"FuturaHeavy19" //Futura20
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"west"
-		"xpos"			"c-55"
-		"ypos"			"15"
+		"xpos"			"c-85" //c-55
+		"ypos"			"30" //15
 		"zpos"			"1"
 		"wide"			"375"
 		"tall"			"25"

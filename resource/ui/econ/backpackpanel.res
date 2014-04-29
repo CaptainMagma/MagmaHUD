@@ -98,12 +98,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"Futura24" //HudFontMediumSmallBold
-		"labelText"		"Backpack" //#ClassBeingEquipped
+		"font"			"FuturaHeavy24"
+		"labelText"		"#ClassBeingEquipped" //Backpack
 		"fgcolor"		"230 230 230 255"
 		"textAlignment"	"west"
 		"xpos"			"c-288"
-		"ypos"			"15"
+		"ypos"			"30" //15
 		"zpos"			"1"
 		"wide"			"210"
 		"tall"			"25"

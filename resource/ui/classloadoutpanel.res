@@ -122,12 +122,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"Futura24"
+		"font"			"FuturaHeavy24" //Futura24
 		"labelText"		"#ClassBeingEquipped"
 		"fgcolor"		"230 230 230 255"
 		"textAlignment"	"west"
 		"xpos"			"c-310"
-		"ypos"			"15"
+		"ypos"			"30" //15
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"25"
