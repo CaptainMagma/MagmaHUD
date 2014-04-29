@@ -110,8 +110,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelA"
-				"font"			"Futura9"
-				"font_hidef"	"Default"
+				"font"			"HudFontSmallestBold" //Futura9
 				"labelText"		"#StatSummary_StatTitle_MostPoints"
 				"textAlignment"		"east"
 				"xpos"			"c-282"
@@ -133,8 +132,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelB"
-				"font"			"Futura9"
-				"font_hidef"	"Default"
+				"font"			"HudFontSmallestBold"
 				"labelText"		"#StatSummary_StatTitle_TotalPlaytime"
 				"textAlignment"		"west"
 				"xpos"			"c-127"
@@ -155,7 +153,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"OverallRecordLabel"
-				"font"			"Futura9"
+				"font"			"HudFontSmallestBold"
 				"labelText"		"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
 				"xpos"			"c+130"
@@ -206,6 +204,7 @@
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
 				"unicode"		"0"
+				"bgcolor_override"	"45 45 45 255"
 			}
 			"BarChartComboB"
 			{
@@ -226,6 +225,7 @@
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
 				"unicode"		"0"
+				"bgcolor_override"	"45 45 45 255"
 			}
 			"ClassCombo"
 			{
@@ -246,6 +246,7 @@
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
 				"unicode"		"0"
+				"bgcolor_override"	"45 45 45 255"
 			}
 		}
 		"AveragesBG"
@@ -258,8 +259,8 @@
 			"ypos"			"165"
 			"ypos_hidef"			"22"
 			"ypos_lodef"			"22"
-			"wide"			"600"
-			"tall"			"240"
+			"wide"			"406" //600
+			"tall"			"260" //240
 			"tall_hidef"			"633"
 			"tall_lodef"			"633"
 			"autoResize"	"0"
@@ -267,7 +268,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"NoBorder"
-			"bgcolor_override"		"15 15 15 255"
+			"bgcolor_override"		"32 32 32 255"
 		}
 		"AveragesLabel"
 		{
@@ -1634,12 +1635,9 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"RecordsBG"
-			"xpos"			"9999"
-			"xpos_hidef"			"c+95"
-			"ypos"			"9999"
-			"ypos_hidef"			"115"
+			"xpos"			"c+115"
+			"ypos"			"165"
 			"wide"			"200"
-			"wide_hidef"			"225"
 			"tall"			"260"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -1650,7 +1648,7 @@
 			"enabled_hidef"		"0"			
 			"enabled_lodef"		"0"			
 			"border"		"NoBorder"
-			"bgcolor_override"	"15 15 15 255"
+			"bgcolor_override"	"32 32 32 255"
 		}
 		"RecordsLabel1"
 		{
@@ -1717,7 +1715,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9" //ScoreboardVerySmall
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord1label%"
 			"textAlignment"		"west"
@@ -1741,7 +1739,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord1value%"
 			"textAlignment"		"west"
@@ -1765,7 +1763,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord2label%"
 			"textAlignment"		"west"
@@ -1789,7 +1787,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord2value%"
 			"textAlignment"		"west"
@@ -1813,7 +1811,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord3label%"
 			"textAlignment"		"west"
@@ -1837,7 +1835,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord3value%"
 			"textAlignment"		"west"
@@ -1861,7 +1859,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord4label%"
 			"textAlignment"		"west"
@@ -1885,7 +1883,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord4value%"
 			"textAlignment"		"west"
@@ -1909,7 +1907,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord5label%"
 			"textAlignment"		"west"
@@ -1933,7 +1931,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord5value%"
 			"textAlignment"		"west"
@@ -1957,7 +1955,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord6label%"
 			"textAlignment"		"west"
@@ -1981,7 +1979,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord6value%"
 			"textAlignment"		"west"
@@ -2005,7 +2003,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord7label%"
 			"textAlignment"		"west"
@@ -2029,7 +2027,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord7value%"
 			"textAlignment"		"west"
@@ -2053,7 +2051,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord8label%"
 			"textAlignment"		"west"
@@ -2077,7 +2075,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord8value%"
 			"textAlignment"		"west"
@@ -2101,7 +2099,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord9label%"
 			"textAlignment"		"west"
@@ -2125,7 +2123,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord9value%"
 			"textAlignment"		"west"
@@ -2149,7 +2147,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord10label%"
 			"textAlignment"		"west"
@@ -2173,7 +2171,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord10value%"
 			"textAlignment"		"west"
@@ -2197,7 +2195,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord11label%"
 			"textAlignment"		"west"
@@ -2221,7 +2219,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord11value%"
 			"textAlignment"		"west"
@@ -2245,7 +2243,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord12label%"
 			"textAlignment"		"west"
@@ -2269,7 +2267,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord12value%"
 			"textAlignment"		"west"
@@ -2293,7 +2291,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord13label%"
 			"textAlignment"		"west"
@@ -2317,7 +2315,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord13value%"
 			"textAlignment"		"west"
@@ -2341,7 +2339,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord14label%"
 			"textAlignment"		"west"
@@ -2365,7 +2363,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord14value%"
 			"textAlignment"		"west"
@@ -2389,7 +2387,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord15label%"
 			"textAlignment"		"west"
@@ -2413,7 +2411,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Futura9"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord15value%"
 			"textAlignment"		"west"
@@ -2510,7 +2508,7 @@
 		"ControlName"		"Button"
 		"fieldName"		"ResetStatsButton"
 		"xpos"			"c130"
-		"ypos"			"246"
+		"ypos"			"270" //246
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -2524,12 +2522,12 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
-			"defaultBgColor_override"	"15 15 15 255"
-			"armedBgColor_override"		"25 25 25 255"
-			"depressedBgColor_override"	"25 25 25 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
+			"defaultBgColor_override"	"255 255 255 255" //15 15 15 
+			"armedBgColor_override"		"100 100 100 255" //25 25 25
+			"depressedBgColor_override"	"200 200 200 255" //25 25 25
+			"defaultFgColor_override"	"40 40 40 255"
+			"armedFgColor_override" 	"255 255 255 255"
+			"depressedFgColor_override" "40 40 40 255"
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
 	}
