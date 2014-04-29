@@ -42,7 +42,7 @@
 		"fieldName"		"AmmoInClip"
 		"font"			"FuturaHeavy38" //FuturaHeavy36
 		"fgcolor"		"AmmoClipColor"
-		"xpos"			"-10" //0
+		"xpos"			"-2" //-10
 		"ypos"			"54" // 37 omp -- -9 Mac fix.
 		"zpos"			"5"
 		"wide"			"63"
@@ -64,8 +64,8 @@
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"FuturaHeavy38"
 		"fgcolor"		"OmpShadow"
-		"xpos"			"-9" //-1
-		"ypos"			"55" //38
+		"xpos"			"-1" //-9
+		"ypos"			"55" //55
 		"zpos"			"5"
 		"wide"			"63"
 		"tall"			"56"
@@ -85,7 +85,7 @@
 		"fieldName"		"AmmoInReserve"
 		"font"			"FuturaHeavy22" //Futura24
 		"fgcolor"		"OmpAmmoReserve"
-		"xpos"			"57" //57
+		"xpos"			"66" //57
 		"ypos"			"61" //65
 		"zpos"			"7"
 		"wide"			"64"
@@ -107,9 +107,9 @@
 		"fieldName"		"AmmoInReserveShadow"
 		"font"			"FuturaHeavy22"
 		"fgcolor"		"OmpShadow"
-		"xpos"			"58" //68
+		"xpos"			"67" //58
 		"ypos"			"62" //66
-		"zpos"			"7"
+		"zpos"			"6"
 		"wide"			"64"
 		"tall"			"33"
 		"visible"		"0"
@@ -129,7 +129,7 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"FuturaHeavy38"
 		"fgcolor"		"AmmoClipColor"
-		"xpos"			"-30" //-10
+		"xpos"			"-22" //-30
 		"ypos"			"54" //53
 		"zpos"			"5"
 		"wide"			"130"
@@ -151,7 +151,7 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"FuturaHeavy38"
 		"fgcolor"		"OmpShadow"
-		"xpos"			"-29" //-9
+		"xpos"			"-21" //-29
 		"ypos"			"55" //54
 		"zpos"			"5"
 		"wide"			"130"

@@ -18,7 +18,7 @@
 		"fieldName"		"CDamageAccountValue"
 		"font"			"FuturaHeavy22"
 		"fgcolor"		"DamageColor"
-		"xpos"			"c92" //default: -232, recently: c100
+		"xpos"			"c102" //default: -232, recently: c92
 		"ypos"			"c86" //c70
 		"zpos"			"5"
 		"wide"			"131"
@@ -40,7 +40,7 @@
 		"fieldName"		"CDamageAccountValueShadow"
 		"font"			"FuturaHeavy22"
 		"fgcolor"		"OmpShadow"
-		"xpos"			"c93" //default: -231, recently: 101
+		"xpos"			"c103" //default: -231, recently: 93
 		"ypos"			"c87" //c71
 		"zpos"			"5"
 		"wide"			"131"

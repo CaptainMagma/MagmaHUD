@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c92"
+		"xpos"			"c102" //c92
 		"ypos"			"107" // omp -- -9 Mac fix.
 		"zpos"			"2"
 		"wide"			"130"
@@ -46,7 +46,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"c93"
+		"xpos"			"c103" //c93
 		"ypos"			"108"
 		"zpos"			"2"
 		"wide"			"130"
@@ -190,7 +190,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
-		"xpos"			"c118" //c-100
+		"xpos"			"c128" //c-118
 		"ypos"			"118" //150
 		"zpos"			"2"
 		"wide"			"42" //48
@@ -216,7 +216,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
-		"xpos"			"c158" //c-50
+		"xpos"			"c168" //c158
 		"ypos"			"118"
 		"zpos"			"2"
 		"wide"			"42"
@@ -242,7 +242,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
-		"xpos"			"c118" //c0
+		"xpos"			"c128"
 		"ypos"			"135"
 		"zpos"			"2"
 		"wide"			"42"
@@ -268,7 +268,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
-		"xpos"			"c158" //c50
+		"xpos"			"c168"
 		"ypos"			"135"
 		"zpos"			"2"
 		"wide"			"42" //50
