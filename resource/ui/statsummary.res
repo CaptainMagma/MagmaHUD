@@ -428,7 +428,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"G_TargetBorder"
-			"bgcolor_override"	"15 15 15 190" //alpha 150
+			"bgcolor_override"	"15 15 15 150"
 		}
 		"AveragesLabel"
 		{
