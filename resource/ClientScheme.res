@@ -1528,8 +1528,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Standard"
-				"tall"		"8"
+				"name"		"Roboto Medium" //Roboto Standard
+				"tall"		"11" //8
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
 				"weight"	"400"
@@ -2067,7 +2067,7 @@ Scheme
 			{
 				"name"		"Roboto Standard"
 				"tall"		"12"
-				"weight"	"0"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 1199"
 				"antialias"	"1"
