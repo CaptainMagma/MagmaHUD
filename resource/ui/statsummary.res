@@ -428,7 +428,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"G_TargetBorder"
-			"bgcolor_override"	"15 15 15 150"
+			"bgcolor_override"	"15 15 15 190" //alpha 150
 		}
 		"AveragesLabel"
 		{
@@ -471,7 +471,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120" //0 0 0 80
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarBG1B"
@@ -492,7 +492,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar1A"
@@ -620,7 +620,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG2B"
@@ -641,7 +641,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar2A"
@@ -769,7 +769,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG3B"
@@ -790,7 +790,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar3A"
@@ -918,7 +918,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG4B"
@@ -939,7 +939,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar4A"
@@ -1067,7 +1067,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG5B"
@@ -1088,7 +1088,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar5A"
@@ -1216,7 +1216,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG6B"
@@ -1237,7 +1237,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar6A"
@@ -1365,7 +1365,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG7B"
@@ -1386,7 +1386,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar7A"
@@ -1514,7 +1514,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG8B"
@@ -1535,7 +1535,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar8A"
@@ -1663,7 +1663,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG9B"
@@ -1684,7 +1684,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar9A"
@@ -1822,7 +1822,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"ScoreboardMediumSmall"
+			"font"			"FuturaHeavy15" //ScoreboardMediumSmall
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"		"west"
 			"xpos"			"c+124"
@@ -1858,7 +1858,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 120"
 			"PaintBackgroundType"	"0"
 		}
 		"RecordsLabel"
