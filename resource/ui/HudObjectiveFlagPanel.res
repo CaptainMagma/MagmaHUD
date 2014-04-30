@@ -23,7 +23,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"LeftSideBG"
 		"xpos"			"c-80"
-		"ypos"			"r45" //r30
+		"ypos"			"r30" //r30
 		"zpos"			"-1"
 		"wide"			"80"
 		"tall"	 		"1"
@@ -59,7 +59,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BluBG"
 		"xpos"			"c-80"
-		"ypos"			"r45"
+		"ypos"			"r30"
 		"zpos"			"-2"
 		"wide"			"80"
 		"tall"			"30"
@@ -94,7 +94,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"RightSideBG"
 		"xpos"			"c0"
-		"ypos"			"r45"
+		"ypos"			"r30"
 		"zpos"			"-1"
 		"wide"			"80"
 		"tall"	 		"1"
@@ -130,7 +130,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedBG"
 		"xpos"			"c0"
-		"ypos"			"r45"
+		"ypos"			"r30"
 		"zpos"			"-2"
 		"wide"			"80"
 		"tall"			"30"
@@ -195,7 +195,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
 		"xpos"			"c-79"
-		"ypos"			"r45"
+		"ypos"			"r30"
 		"zpos"			"8"
 		"wide"			"99"
 		"tall"			"30"
@@ -263,7 +263,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
 		"xpos"			"c-20"
-		"ypos"			"r45"
+		"ypos"			"r30"
 		"zpos"			"8"
 		"wide"			"99"
 		"tall"			"30"
@@ -331,7 +331,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"OutlineImage"
 		"xpos"			"c0"
-		"ypos"			"r53" //r38
+		"ypos"			"r40" //r38
 		"zpos"			"9"
 		"wide"			"0"
 		"tall"			"0"
@@ -345,11 +345,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
-		"xpos"			"c-16"
-		"ypos"			"r53" //r38
+		"xpos"			"c-12" //c-16
+		"ypos"			"r42" //r38
 		"zpos"			"10"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"26" //32
+		"tall"			"26" //32
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
@@ -371,7 +371,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-100"
-		"ypos"			"r14" //20
+		"ypos"			"r13" //20
 		"zpos"			"4"
 		"wide"			"200"
 		"tall"			"14"
@@ -381,7 +381,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Futura13" //Futura10
+		"font"			"Futura10" //Futura10
 		"fgcolor"		"OmpText"
 		
 		"if_hybrid"
@@ -404,16 +404,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-80"
-		"ypos"			"r14"
+		"xpos"			"c-30" //c-80
+		"ypos"			"r12"
 		"zpos"			"-1"
-		"wide"			"160"
-		"tall"			"14"
+		"wide"			"60" //160
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"30 30 30 140"
+		"fillcolor"		"30 30 30 170"
 		
 		"if_hybrid"
 		{
@@ -436,10 +436,10 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
 		"xpos"			"c-60"
-		"ypos"			"r73"
+		"ypos"			"r58" //r73
 		"zpos"			"5"
-		"wide"			"48"
-		"tall"			"48"
+		"wide"			"48" //48
+		"tall"			"48" //48
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -482,7 +482,7 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
 		"xpos"			"c0"
-		"ypos"			"r73"
+		"ypos"			"r58"
 		"zpos"			"5"
 		"wide"			"48"
 		"tall"			"48"
@@ -521,11 +521,11 @@
 	{
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
-		"xpos"			"c-30"
-		"ypos"			"r73"
+		"xpos"			"c-26" //c-27
+		"ypos"			"r60" //r58
 		"zpos"			"5"
-		"wide"			"60"
-		"tall"			"60"
+		"wide"			"54" //54
+		"tall"			"54" //54
 		"visible"		"0"
 		"enabled"		"1"
 		
@@ -545,10 +545,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpecCarriedImage"
 		"xpos"			"c-16"
-		"ypos"			"r99" //r84
+		"ypos"			"r84" //r84
 		"zpos"			"-1"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"32" //32
+		"tall"			"32" //32
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
