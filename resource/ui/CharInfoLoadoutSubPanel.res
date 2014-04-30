@@ -28,7 +28,7 @@
 		"class_tall_max"			"200"
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
-		"itemcountcolor"			"220 220 220 255"
+		"itemcountcolor"			"200 80 60 255" //220 220 220 255
 		"itemcountcolor_noitems"	"117 107 94 255"
 	}
 	"scout"
@@ -446,7 +446,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsLabel"
-		"font"			"Futura14"
+		"font"			"Futura13" //Futura14
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -458,7 +458,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor"		"117 107 94 255"
+		//"fgcolor"		"117 107 94 255"
 		"centerwrap"	"1"
 	}
 	"NoSteamLabel"
