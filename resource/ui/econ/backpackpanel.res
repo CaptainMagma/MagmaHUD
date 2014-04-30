@@ -152,9 +152,9 @@
 		"unicode"			"0"
 		"default"			"0"
 		
-		"fgcolor_override"	"255 255 255 255"
+		"fgcolor_override"	"220 220 220 255"
 		"bgcolor_override"	"37 37 37 255"
-		"disabledFgColor_override" "255 255 255 255"
+		"disabledFgColor_override" "220 220 220 255"
 		"disabledBgColor_override" "37 37 37 255"
 		"selectionColor_override" "37 37 37 255"
 		"selectionTextColor_override" "255 255 255 255"
@@ -243,9 +243,9 @@
 		"unicode"			"0"
 		"default"			"0"
 		
-		"fgcolor_override"	"255 255 255 255"
+		"fgcolor_override"	"220 220 220 255"
 		"bgcolor_override"	"37 37 37 255"
-		"disabledFgColor_override" "255 255 255 255"
+		"disabledFgColor_override" "220 220 220 255"
 		"disabledBgColor_override" "37 37 37 255"
 		"selectionColor_override" "37 37 37 255"
 		"selectionTextColor_override" "255 255 255 255"
