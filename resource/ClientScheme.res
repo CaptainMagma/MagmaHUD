@@ -2620,6 +2620,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"Futura34"
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"34"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"Futura40"
 		{
 			"1"

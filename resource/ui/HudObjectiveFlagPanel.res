@@ -203,7 +203,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"Futura40"
+		"font"			"Futura34" //Futura40
 		"fgcolor"		"OmpText"
 		
 		"if_hybrid"
@@ -271,7 +271,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"Futura40"
+		"font"			"Futura34"
 		"fgcolor"		"OmpText"	
 		
 		"if_hybrid"
@@ -413,7 +413,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"30 30 30 170"
+		"fillcolor"		"30 30 30 0" //alpha 170
 		
 		"if_hybrid"
 		{
