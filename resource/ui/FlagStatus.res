@@ -15,8 +15,8 @@
 
 		"if_mvm"
 		{
-			"wide"			"80"
-			"tall"			"80"
+			"wide"			"70" //80
+			"tall"			"70" //80
 		}
 	}
 	"Briefcase"
@@ -35,10 +35,10 @@
 		
 		"if_mvm"
 		{
-			"xpos"			"22"
-			"ypos"			"21"
-			"wide"			"38"
-			"tall"			"38"
+			"xpos"			"24" //22
+			"ypos"			"18" //21
+			"wide"			"28" //38
+			"tall"			"28" //38
 		}	
 	}				
 	"StatusIcon"

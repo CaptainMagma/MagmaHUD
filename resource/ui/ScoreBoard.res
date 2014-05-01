@@ -47,7 +47,7 @@
         "visible"       "1"
         "enabled"       "1"
         "fillcolor"     "0 0 0 130"
-	"border"	"G_TargetBorder"
+	"border"	"NoBorder" //G_TargetBorder
 
 	if_mvm
         {
@@ -291,7 +291,7 @@
         if_mvm
         {
 		"xpos"          "c-160"
-            	"ypos"          "r65"
+            	"ypos"          "r75"
 		"textAlignment"     "center"
         }
     }
@@ -428,7 +428,7 @@
         "enabled"       "1" 
         "fillcolor"     "0 0 0 130"
         "PaintBackgroundType"   "0"
-	"border"	"G_TargetBorder_Top"
+	"border"	"NoBorder" //G_TargetBorder_Top
     }
     "ClassImage"
     {
@@ -1220,7 +1220,7 @@
         	"font"          "Futura9" //Futura8
         	"fgcolor"       "255 255 255 255"
         	"labelText"     "Map:"
-        	"textAlignment"     "west" //west
+        	"textAlignment"     "west"
         	"textinsetx"        "0" //20
         	"xpos"          "5" //c150
         	"ypos"          "25" //r65
@@ -1231,6 +1231,12 @@
         	"pinCorner"     "0"
         	"visible"       "1" [$WIN32]
         	"enabled"       "1"
+
+        	if_mvm
+        	{
+			"xpos"          "c-30"
+            		"ypos"          "r65"
+        	}
         }  
         "MapName"
         {
@@ -1250,6 +1256,12 @@
         	"pinCorner"     "0"
         	"visible"       "1" [$WIN32]
         	"enabled"       "1"
+
+        	if_mvm
+        	{
+			"xpos"          "c-12"
+            		"ypos"          "r65"
+        	}
         }   
         "GameType"
         {
