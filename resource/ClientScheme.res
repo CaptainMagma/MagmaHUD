@@ -561,7 +561,7 @@ Scheme
 			"4"
 			{
 				"name"		"Roboto Standard"
-				"tall"		"20"
+				"tall"		"18" //20
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
