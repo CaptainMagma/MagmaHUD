@@ -239,7 +239,7 @@
         "visible"   "0"
         "enabled"   "1"
         "xpos"      "c-100"
-        "ypos"      "c52" //c45
+        "ypos"      "c54" //c45
 		"ypos_minmode"	"c40"
         "wide"      "200"
         "tall"      "40" //40
@@ -259,7 +259,7 @@
         "visible"   "0"
         "enabled"   "1"
         "xpos"      "c-100"
-        "ypos"      "c107" //c100
+        "ypos"      "c109" //c100
         "wide"      "200"
         "tall"      "40"
         "priority"  "40"
@@ -275,7 +275,7 @@
         "visible"   "0"
         "enabled"   "1"
         "xpos"      "c-100"
-        "ypos"      "c106" //c98
+        "ypos"      "c107" //c98
         "zpos"      "1" // omp -- place above health cross.
         "wide"      "200"
         "tall"      "40"
