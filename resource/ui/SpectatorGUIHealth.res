@@ -69,7 +69,7 @@
 		"ypos"			"1"
 		"zpos"			"5"
 		"wide"			"31"
-		"tall"			"30"
+		"tall"			"29" //30
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
@@ -85,7 +85,7 @@
 		"ypos"			"2"
 		"zpos"			"5"
 		"wide"			"31"
-		"tall"			"30"
+		"tall"			"29" //30
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
