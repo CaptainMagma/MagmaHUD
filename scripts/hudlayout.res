@@ -82,7 +82,7 @@
         "visible"       "1"
         "enabled"       "1"
         "xpos"          "c-100" //c-100
-        "ypos"          "c150"
+        "ypos"          "c148" //c150
         "zpos"          "1"         // draw in front of ammo
         "wide"          "200" //200
         "tall"          "6" //6

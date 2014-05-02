@@ -53,7 +53,7 @@
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"26"
+		"ypos"					"24" //26
 		"zpos"					"2"
 		"wide"					"200"
 		"tall"					"5"
@@ -109,7 +109,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"0"
-			"ypos"			"2" //4
+			"ypos"			"0" //2
 			"zpos"			"2"
 			"wide"			"149"
 			"tall"			"25"
@@ -132,7 +132,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
 			"xpos"			"1"
-			"ypos"			"3" //5
+			"ypos"			"1" //3
 			"zpos"			"2"
 			"wide"			"149"
 			"tall"			"25"
