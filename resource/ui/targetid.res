@@ -5,7 +5,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TargetBG"
 		"xpos"			"0"
-		"ypos"			"13"
+		"ypos"			"6" //13
 		"zpos"			"-1"
 		"wide"			"640"
 		"tall"			"14"
@@ -20,10 +20,10 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0" //9999
-		"ypos"			"38" //-36
-		"zpos"			"-1"
+		"ypos"			"-34" //38
+		"zpos"			"-2" //-1
 		"wide"			"252"
-		"tall"	 		"50"
+		"tall"	 		"50" //50
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -47,10 +47,10 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"0"
-		"ypos"			"38" //-36
-		"zpos"			"-1"
+		"ypos"			"-34" //38
+		"zpos"			"-2"
 		"wide"			"640"
-		"tall"	 		"40"
+		"tall"	 		"40" //40
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -69,8 +69,8 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"0"
-		"ypos"			"38"
-		"zpos"			"-1"
+		"ypos"			"-34" //38
+		"zpos"			"-2"
 		"wide"			"640"
 		"tall"	 		"40"
 		"autoResize"		"0"
@@ -94,7 +94,7 @@
 		"font"			"Futura11"
 		"fgcolor"		"OmpText"
 		"xpos"			"34"
-		"ypos"			"13"
+		"ypos"			"6" //13
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"14"
@@ -114,7 +114,7 @@
 		"font"			"Futura9"
 		"fgcolor"		"OmpText"
 		"xpos"			"34"
-		"ypos"			"28"
+		"ypos"			"22" //28
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"9"
@@ -132,7 +132,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"0"
-		"ypos"			"4"
+		"ypos"			"-3" //4
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"1"
@@ -149,7 +149,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
 		"xpos"			"30"
-		"ypos"			"28"
+		"ypos"			"22" //28
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -164,7 +164,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"30"
-		"ypos"			"28"
+		"ypos"			"22" //28
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
