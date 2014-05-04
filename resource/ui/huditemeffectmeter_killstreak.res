@@ -82,7 +82,7 @@
         "ControlName"           "CExLabel"
         "fieldName"             "ItemEffectMeterCount"
         "xpos"                  "38" //48
-        "ypos"                  "42" //36
+        "ypos"                  "43" //36
         "zpos"                  "9"
         "wide"                  "30"
         "tall"                  "29"    
@@ -94,7 +94,7 @@
         "textAlignment"         "north"
         "dulltext"              "0"
         "brighttext"            "0"
-        "font"                  "Futura16"
+        "font"                  "SolHeavy16" //Futura16
         "fgcolor"               "255 255 255 255"
     }
     "ItemEffectMeterCountshadow"
@@ -102,10 +102,10 @@
         "ControlName"           "CExLabel"
         "fieldName"             "ItemEffectMeterCountshadow"
         "xpos"                  "39" //48
-        "ypos"                  "42" //36
+        "ypos"                  "43" //42
         "zpos"                  "9"
         "wide"                  "30"
-        "tall"                  "29"    
+        "tall"                  "29" //29   
         "pinCorner"             "2"
         "visible"               "1"
         "enabled"               "1"
@@ -114,19 +114,19 @@
         "textAlignment"         "north"
         "dulltext"              "0"
         "brighttext"            "0"
-        "font"                  "Futura16"
-        "fgcolor"               "0 0 0 255"
+        "font"                  "SolHeavy16" //Futura16
+        "fgcolor"               "OmpShadow"
     }    
     
     "KillStreakIcon"
     {
         "ControlName"   "CTFImagePanel"
         "fieldName"     "KillStreakIcon"
-        "xpos"          "30" //37
+        "xpos"          "29" //37
         "ypos"          "40" //33
         "zpos"          "9"
-        "wide"          "20"
-        "tall"          "20"
+        "wide"          "21"
+        "tall"          "21"
         "autoResize"    "0"
         "pinCorner"     "0"
         "visible"       "1"

@@ -2434,8 +2434,7 @@ Scheme
 			}
 		}
 
-		//crosshair
-
+		//crosshairs
 		"crosshair13outline"
 		{
 			"1"
@@ -2445,6 +2444,17 @@ Scheme
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"1"
+			}
+		}
+		"crosshair22"
+		{
+			"1"
+			{
+				"name"		"broeselhud Crosshairs"
+				"tall"		"22"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
 
@@ -2910,6 +2920,98 @@ Scheme
 			{
 				"name"		"Roboto Medium"
 				"tall"		"56"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"SolHeavy14"
+		{
+			"1"
+			{
+				"name"		"Solomon Heavy"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"SolHeavy16"
+		{
+			"1"
+			{
+				"name"		"Solomon Heavy"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"SolHeavy18"
+		{
+			"1"
+			{
+				"name"		"Solomon Heavy"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"SolHeavy20"
+		{
+			"1"
+			{
+				"name"		"Solomon Heavy"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"SolHeavy20outline"
+		{
+			"1"
+			{
+				"name"		"Solomon Heavy"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
+			}
+		}
+		"SolHeavy20shadow"
+		{
+			"1"
+			{
+				"name"		"Solomon Heavy"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
+			}
+		}
+		"SolHeavy22"
+		{
+			"1"
+			{
+				"name"		"Solomon Heavy"
+				"tall"		"22"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"SolHeavy41"
+		{
+			"1"
+			{
+				"name"		"Solomon Heavy"
+				"tall"		"41"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"SolHeavy42"
+		{
+			"1"
+			{
+				"name"		"Solomon Heavy"
+				"tall"		"42"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -6426,6 +6528,12 @@ Scheme
 		
 			"font" "resource/OpenSansBold.ttf"
 			"name" "Open Sans Bold"
+		}
+		"24"
+		{
+		
+			"font" "resource/SolomonHeavy.ttf"
+			"name" "Solomon Heavy"
 		}
 	}
 }

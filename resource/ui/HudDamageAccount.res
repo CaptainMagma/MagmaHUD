@@ -9,16 +9,16 @@
 		"PositiveColor"			"HealColor"
 		"NegativeColor"			"DamageColor"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"FuturaHeavyOutline20" //FuturaHeavyOutline20
-		"delta_item_font_big"	"FuturaHeavyOutline20" //FuturaHeavyOutline20
+		"delta_item_font"		"SolHeavy20shadow" //FuturaHeavyOutline20
+		"delta_item_font_big"	"SolHeavy20shadow" //FuturaHeavyOutline20
 	}
 	"CDamageAccountValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CDamageAccountValue"
-		"font"			"FuturaHeavy22"
+		"font"			"SolHeavy22" //FuturaHeavy22
 		"fgcolor"		"DamageColor"
-		"xpos"			"c102" //default: -232, recently: c92
+		"xpos"			"c100" //default: -232, recently: c102
 		"ypos"			"c86" //c70
 		"zpos"			"5"
 		"wide"			"131"
@@ -38,9 +38,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CDamageAccountValueShadow"
-		"font"			"FuturaHeavy22"
+		"font"			"SolHeavy22"
 		"fgcolor"		"OmpShadow"
-		"xpos"			"c103" //default: -231, recently: 93
+		"xpos"			"c101" //default: -231, recently: c102
 		"ypos"			"c87" //c71
 		"zpos"			"5"
 		"wide"			"131"

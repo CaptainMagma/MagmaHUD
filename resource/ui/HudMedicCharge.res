@@ -22,7 +22,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
 		"xpos"			"c102" //c92
-		"ypos"			"107" // omp -- -9 Mac fix.
+		"ypos"			"104" // omp -- -9 Mac fix. (old 107)
 		"zpos"			"2"
 		"wide"			"130"
 		"tall"			"56" // omp -- +18 Mac fix.
@@ -35,7 +35,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"FuturaHeavy42"
+		"font"			"SolHeavy42" //FuturaHeavy42
 		"fgcolor"		"OmpAmmoClip"
 		
 		"xpos_minmode"	"c45"
@@ -47,7 +47,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
 		"xpos"			"c103" //c93
-		"ypos"			"108"
+		"ypos"			"105" //108
 		"zpos"			"2"
 		"wide"			"130"
 		"tall"			"56"
@@ -60,7 +60,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"FuturaHeavy42"
+		"font"			"SolHeavy42" //FuturaHeavy42
 		"fgcolor"		"OmpShadow"
 		
 		"xpos_minmode"	"c46"
@@ -190,11 +190,11 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
-		"xpos"			"c128" //c-118
-		"ypos"			"118" //150
+		"xpos"			"c120" //c128
+		"ypos"			"112" //116
 		"zpos"			"2"
-		"wide"			"42" //48
-		"tall"			"19" //5
+		"wide"			"48" //42
+		"tall"			"21" //19
 		"border"		"ChargeBorderVacc"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -216,11 +216,11 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
-		"xpos"			"c168" //c158
-		"ypos"			"118"
+		"xpos"			"c167" //c168
+		"ypos"			"112" //118
 		"zpos"			"2"
-		"wide"			"42"
-		"tall"			"19"
+		"wide"			"48" //42
+		"tall"			"21" //19
 		"border"		"ChargeBorderVacc"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -242,11 +242,11 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
-		"xpos"			"c128"
-		"ypos"			"135"
+		"xpos"			"c120" //c128
+		"ypos"			"132" //135
 		"zpos"			"2"
-		"wide"			"42"
-		"tall"			"19"
+		"wide"			"48" //42
+		"tall"			"21" //19
 		"border"		"ChargeBorderVacc"			
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -268,11 +268,11 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
-		"xpos"			"c168"
-		"ypos"			"135"
+		"xpos"			"c167"
+		"ypos"			"132" //135
 		"zpos"			"2"
-		"wide"			"42" //50
-		"tall"			"19"
+		"wide"			"48" //42
+		"tall"			"21" //19
 		"border"		"ChargeBorderVacc"			
 		"autoResize"	"0"
 		"pinCorner"		"0"

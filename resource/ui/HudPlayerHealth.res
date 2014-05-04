@@ -81,8 +81,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"0"
-		"ypos"			"37" // omp -- -9 Mac fix.
+		"xpos"			"2"
+		"ypos"			"36" // omp -- -9 Mac fix. (old 37)
 		"zpos"			"5"
 		"wide"			"130"
 		"tall"			"56" // omp -- +18 Mac fix.
@@ -90,7 +90,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"FuturaHeavy43" //FuturaHeavy42
+		"font"			"SolHeavy41" //FuturaHeavy43
 		"fgcolor"		"OmpHP"
 
 		"xpos_minmode"	"0"
@@ -103,8 +103,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"1"
-		"ypos"			"38"
+		"xpos"			"3"
+		"ypos"			"37" //38
 		"zpos"			"5"
 		"wide"			"130"
 		"tall"			"56"
@@ -112,7 +112,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"FuturaHeavy43" //FuturaHeavy42
+		"font"			"SolHeavy41" //FuturaHeavy43
 		"fgcolor"		"OmpShadow"
 		
 		"xpos_minmode"	"1"
@@ -165,7 +165,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
-		"xpos"			"50"
+		"xpos"			"50" //50
 		"ypos"			"95" //90
 		"zpos"			"7"
 		"wide"			"32"
@@ -185,10 +185,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
-		"xpos"			"50"
+		"xpos"			"50" //50
 		"ypos"			"95" //90
 		"zpos"			"7"
-		"wide"			"31"
+		"wide"			"31" //31
 		"tall"			"31"
 		"visible"		"1"
 		"enabled"		"1"

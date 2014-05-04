@@ -66,7 +66,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"FuturaHeavy22" //Futura20
+		"font"			"FuturaHeavy22" //FuturaHeavy22
 		"fgcolor"		"OmpAmmoMetal"
 		
 		"xpos_minmode"	"50"

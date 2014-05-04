@@ -40,7 +40,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"FuturaHeavy38" //FuturaHeavy36
+		"font"			"SolHeavy41" //FuturaHeavy38
 		"fgcolor"		"AmmoClipColor"
 		"xpos"			"-2" //-10
 		"ypos"			"54" // 37 omp -- -9 Mac fix.
@@ -62,7 +62,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"FuturaHeavy38"
+		"font"			"SolHeavy41" //FuturaHeavy38
 		"fgcolor"		"OmpShadow"
 		"xpos"			"-1" //-9
 		"ypos"			"55" //55
@@ -83,10 +83,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"FuturaHeavy22" //Futura24
+		"font"			"SolHeavy22" //FuturaHeavy22
 		"fgcolor"		"OmpAmmoReserve"
 		"xpos"			"66" //57
-		"ypos"			"61" //65
+		"ypos"			"58" //61
 		"zpos"			"7"
 		"wide"			"64"
 		"tall"			"33"
@@ -105,10 +105,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"FuturaHeavy22"
+		"font"			"SolHeavy22" //FuturaHeavy22
 		"fgcolor"		"OmpShadow"
 		"xpos"			"67" //58
-		"ypos"			"62" //66
+		"ypos"			"59" //62
 		"zpos"			"6"
 		"wide"			"64"
 		"tall"			"33"
@@ -127,12 +127,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"FuturaHeavy38"
+		"font"			"SolHeavy41" //FuturaHeavy38
 		"fgcolor"		"AmmoClipColor"
-		"xpos"			"-22" //-30
+		"xpos"			"-25" //-22
 		"ypos"			"54" //53
 		"zpos"			"5"
-		"wide"			"130"
+		"wide"			"128"
 		"tall"			"56"
 		"visible"		"0"
 		"enabled"		"1"
@@ -149,12 +149,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"FuturaHeavy38"
+		"font"			"SolHeavy41" //FuturaHeavy38
 		"fgcolor"		"OmpShadow"
-		"xpos"			"-21" //-29
+		"xpos"			"-24" //-21
 		"ypos"			"55" //54
 		"zpos"			"5"
-		"wide"			"130"
+		"wide"			"128"
 		"tall"			"56"
 		"visible"		"0"
 		"enabled"		"1"

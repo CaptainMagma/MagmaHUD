@@ -109,7 +109,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"FuturaHeavy14"
+		"font"					"SolHeavy14" //FuturaHeavy14
 		"fgcolor"				"OmpAmmoReserve" //OmpText
 	}
 	"ItemEffectMeterCountShadow"
@@ -129,7 +129,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"FuturaHeavy14"
-		"fgcolor"				"0 0 0 255"
+		"font"					"SolHeavy14"
+		"fgcolor"				"OmpShadow"
 	}
 }

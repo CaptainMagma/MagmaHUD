@@ -33,7 +33,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"29" //20
+		"xpos"					"28" //29
 		"ypos"					"1" //0
 		"zpos"					"2"
 		"wide"					"40"
@@ -55,7 +55,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabelShadow"
-		"xpos"					"30" //21
+		"xpos"					"29" //30
 		"ypos"					"2" //0
 		"zpos"					"1"
 		"wide"					"40"
@@ -96,7 +96,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"-5" //-13
+		"xpos"					"-6" //-5
 		"ypos"					"0" //0
 		"zpos"					"2"
 		"wide"					"30"
@@ -109,14 +109,14 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"FuturaHeavy14"
+		"font"					"SolHeavy14" //FuturaHeavy14
 		"fgcolor"				"OmpAmmoReserve" //OmpText
 	}
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"-4" //-12
+		"xpos"					"-5" //-4
 		"ypos"					"1" //0
 		"zpos"					"1"
 		"wide"					"30"
@@ -129,7 +129,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"FuturaHeavy14"
-		"fgcolor"				"0 0 0 255"
+		"font"					"SolHeavy14" //FuturaHeavy14
+		"fgcolor"				"OmpShadow"
 	}
 }

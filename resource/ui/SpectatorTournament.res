@@ -11,12 +11,12 @@
 		"enabled"		"1"
 
 		"team1_player_base_offset_x"		"0"
-		"team1_player_base_y"				"180"
+		"team1_player_base_y"				"140" //180 Highlander
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"-20"
 		
 		"team2_player_base_offset_x"		"0"
-		"team2_player_base_y"				"208"
+		"team2_player_base_y"				"168" //208 Highlander
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"20"
 		
