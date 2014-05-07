@@ -2983,7 +2983,7 @@ Scheme
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" 	"1"
-				"dropshadow"	"1"
+				//"dropshadow"	"1"
 			}
 		}
 		"SolHeavy22"
