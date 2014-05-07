@@ -68,8 +68,8 @@ Scheme
 		"OmpAmmoMetal"		"255 255 255 255" //150 150 150
 		"OmpDemoPipes"		"255 255 255 255" //150 150 150
 
-		"OmpAmmoClipLow1"	"255 30 30 255"
-		"OmpAmmoClipLow2"	"200 30 30 255"
+		"OmpAmmoClipLow1"	"190 30 30 255" //255 30 30 255
+		"OmpAmmoClipLow2"	"220 30 30 255" //200 30 30 255
 		"OmpAmmoReserveLow1"	"255 30 30 255"
 		"OmpAmmoReserveLow2"	"200 30 30 255"
 		
@@ -2928,7 +2928,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Solomon Heavy"
+				"name"		"Solomon"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -2938,7 +2938,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Solomon Heavy"
+				"name"		"Solomon"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -2948,7 +2948,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Solomon Heavy"
+				"name"		"Solomon"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -2958,7 +2958,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Solomon Heavy"
+				"name"		"Solomon"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -2968,7 +2968,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Solomon Heavy"
+				"name"		"Solomon"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2979,7 +2979,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Solomon Heavy"
+				"name"		"Solomon"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2990,7 +2990,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Solomon Heavy"
+				"name"		"Solomon"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -3000,7 +3000,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Solomon Heavy"
+				"name"		"Solomon"
 				"tall"		"41"
 				"additive"	"0"
 				"antialias" "1"
@@ -3010,7 +3010,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Solomon Heavy"
+				"name"		"Solomon"
 				"tall"		"42"
 				"additive"	"0"
 				"antialias" "1"
@@ -6532,8 +6532,8 @@ Scheme
 		"24"
 		{
 		
-			"font" "resource/SolomonHeavy.ttf"
-			"name" "Solomon Heavy"
+			"font" "resource/SolomonHeavy.otf"
+			"name" "Solomon"
 		}
 	}
 }
