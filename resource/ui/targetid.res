@@ -4,23 +4,39 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TargetBG"
-		"xpos"			"0"
-		"ypos"			"4" //6
+		"xpos"			"30"
+		"ypos"			"0" //0
 		"zpos"			"-1"
 		"wide"			"640"
-		"tall"			"14"
+		"tall"			"19" //14
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"OmpDarkBG"
+		"fillcolor"		"225 225 225 225" //215 215 215
+		"border"		"FluxBorderBlack3"
+	}
+	"HealthBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBG"
+		"xpos"			"0"
+		"ypos"			"0" //0
+		"zpos"			"-1" //-1
+		"wide"			"30"
+		"tall"			"21" //14
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"55 55 55 170" //55 55 55 170
 	}
 	"TargetIDBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"0" //9999
-		"ypos"			"-36" //-34
+		"xpos"			"30" //9999
+		"ypos"			"19" //19
 		"zpos"			"-2" //-1
 		"wide"			"252"
 		"tall"	 		"50" //50
@@ -30,6 +46,7 @@
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
+		"border"		"FluxBorderBlack3"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_2_lodef"	"../hud/color_panel_red"
@@ -46,15 +63,16 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"			"0"
-		"ypos"			"-36" //38
-		"zpos"			"-2"
-		"wide"			"640"
-		"tall"	 		"40" //40
+		"xpos"			"30"
+		"ypos"			"19" //-36
+		"zpos"			"-2" //-1
+		"wide"			"252"
+		"tall"	 		"50" //50
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
+		"border"		"FluxBorderBlack3"
 		"image"			"../hud/color_panel_blu"
 		"image_lodef"	"../hud/color_panel_blu"
 		
@@ -68,15 +86,16 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"			"0"
-		"ypos"			"-36" //38
-		"zpos"			"-2"
-		"wide"			"640"
-		"tall"	 		"40"
+		"xpos"			"30"
+		"ypos"			"19" //-36
+		"zpos"			"-2" //-1
+		"wide"			"252"
+		"tall"	 		"50" //50
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
+		"border"		"FluxBorderBlack3"
 		"image"			"../hud/color_panel_red"
 		"image_lodef"	"../hud/color_panel_red"
 		
@@ -92,9 +111,9 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabel"
 		"font"			"Futura11"
-		"fgcolor"		"OmpText"
+		"fgcolor"		"OmpShadow"
 		"xpos"			"34"
-		"ypos"			"4" //6
+		"ypos"			"-1" //-1
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"14"
@@ -111,10 +130,10 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
-		"font"			"Futura9"
-		"fgcolor"		"OmpText"
+		"font"			"Futura8"
+		"fgcolor"		"OmpShadow"
 		"xpos"			"34"
-		"ypos"			"20" //28
+		"ypos"			"10" //10
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"9"
@@ -132,12 +151,12 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"0"
-		"ypos"			"-5" //-3
-		"wide"			"32"
-		"tall"			"32"
+		"ypos"			"-5" //-5
+		"wide"			"30" //32
+		"tall"			"30" //32
 		"visible"		"1"
 		"enabled"		"1"	
-		"HealthBonusPosAdj"	"10"
+		"HealthBonusPosAdj"	"6000" //10
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
@@ -148,8 +167,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"30"
-		"ypos"			"20" //28
+		"xpos"			"32" //30
+		"ypos"			"10" //10
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -163,14 +182,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"30"
-		"ypos"			"20" //28
+		"xpos"			"32"
+		"ypos"			"10" //10
 		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
+		"wide"			"9"
+		"tall"			"9"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/leaderboard_streak"
+		"image"			"../hud/dneg_leaderboard_streak"
 		"scaleImage"	"1"
 	}
 	

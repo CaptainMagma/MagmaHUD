@@ -228,9 +228,9 @@
         "visible"   "1"
         "enabled"   "1"
         "xpos"      "5" //10
-        "ypos"      "r29" //r33
+        "ypos"      "r39" //r29
         "wide"      "160"
-        "tall"      "32"
+        "tall"      "38"
     }
 
     CMainTargetID
@@ -242,9 +242,10 @@
         "ypos"      "c54" //c45
 		"ypos_minmode"	"c40"
         "wide"      "200"
-        "tall"      "40" //40
+        "tall"      "21" //21
         "priority"  "40"
         "priority_lodef"    "5"
+	"border"	"FluxBorderBlack"
 
         if_vr
         {
@@ -261,9 +262,10 @@
         "xpos"      "c-100"
         "ypos"      "c109" //c100
         "wide"      "200"
-        "tall"      "40"
+        "tall"      "21"
         "priority"  "40"
         "priority_lodef" "35"
+	"border"	"FluxBorderBlack"
         
         "x_offset" "20"
         "y_offset" "20"
@@ -278,8 +280,9 @@
         "ypos"      "c107" //c98
         "zpos"      "1" // omp -- place above health cross.
         "wide"      "200"
-        "tall"      "40"
+        "tall"      "21"
         "priority"  "35"
+	"border"	"FluxBorderBlack"
 
         if_vr
         {

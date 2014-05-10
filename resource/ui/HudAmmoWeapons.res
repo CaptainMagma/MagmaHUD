@@ -85,7 +85,7 @@
 		"fieldName"		"AmmoInReserve"
 		"font"			"SolHeavy22" //FuturaHeavy22
 		"fgcolor"		"OmpAmmoReserve"
-		"xpos"			"66" //57
+		"xpos"			"66" //66
 		"ypos"			"58" //61
 		"zpos"			"7"
 		"wide"			"64"

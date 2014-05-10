@@ -2509,6 +2509,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"Futura12Cn"
+		{
+			"1"
+			{
+				"name"		"Roboto Cn"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"FuturaOutline12"
 		{
 			"1"
@@ -2525,6 +2535,16 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Regular"
+				"tall"		"13"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Futura13Cn"
+		{
+			"1"
+			{
+				"name"		"Roboto Cn"
 				"tall"		"13"
 				"additive"	"0"
 				"antialias" "1"
@@ -4247,6 +4267,19 @@ Scheme
 				}
 			}
 			Bottom
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		FluxBorderBlack3
+		{
+			"inset" "0 0 1 1"
+			Left
 			{
 				"1"
 				{

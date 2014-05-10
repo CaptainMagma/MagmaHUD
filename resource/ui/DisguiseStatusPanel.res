@@ -33,10 +33,10 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
 		"xpos"			"0"
-		"ypos"			"9"
+		"ypos"			"13" //9
 		"zpos"			"-1"
 		"wide"			"160"
-		"tall"	 		"1"
+		"tall"	 		"3" //1
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -60,10 +60,10 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"DisguiseStatusBG2"
 		"xpos"			"0"
-		"ypos"			"9"
+		"ypos"			"13" //9
 		"zpos"			"-1"
 		"wide"			"160"
-		"tall"	 		"14"
+		"tall"	 		"18" //14
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -75,13 +75,13 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"Default"
+		"font"			"Futura11" //Default
 		"fgcolor"		"OmpText"
 		"xpos"			"34"
-		"ypos"			"9"
+		"ypos"			"16" //9
 		"zpos"			"1"
 		"wide"			"124"
-		"tall"			"14"
+		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -96,13 +96,13 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"Futura9"
+		"font"			"Futura11" //Futura9
 		"fgcolor"		"OmpText"
 		"xpos"			"34"
-		"ypos"			"-1"
+		"ypos"			"1" //-1
 		"zpos"			"1"
 		"wide"			"124"
-		"tall"			"9"
+		"tall"			"12"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -118,7 +118,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"8"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"1"
