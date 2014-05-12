@@ -188,6 +188,10 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"
+		if_christmas
+		{
+			"xpos"		"c-250"
+		}
 	}
 	
 	"MainMenuBGPanel"
