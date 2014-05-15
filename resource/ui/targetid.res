@@ -130,7 +130,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
-		"font"			"Futura8ID"
+		"font"			"Futura8"
 		"fgcolor"		"OmpShadow"
 		"xpos"			"34"
 		"ypos"			"10" //10
@@ -156,7 +156,7 @@
 		"tall"			"30" //32
 		"visible"		"1"
 		"enabled"		"1"	
-		"HealthBonusPosAdj"	"6000" //10, 6000
+		"HealthBonusPosAdj"	"6000" //10
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
