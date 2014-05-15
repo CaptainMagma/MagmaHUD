@@ -7,7 +7,7 @@
 		"xpos"			"30"
 		"ypos"			"0" //0
 		"zpos"			"-1"
-		"wide"			"640"
+		"wide"			"640" //640
 		"tall"			"19" //14
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -38,7 +38,7 @@
 		"xpos"			"30" //9999
 		"ypos"			"19" //19
 		"zpos"			"-2" //-1
-		"wide"			"252"
+		"wide"			"252" //252
 		"tall"	 		"50" //50
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -130,7 +130,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
-		"font"			"Futura8"
+		"font"			"Futura8ID"
 		"fgcolor"		"OmpShadow"
 		"xpos"			"34"
 		"ypos"			"10" //10
@@ -156,7 +156,7 @@
 		"tall"			"30" //32
 		"visible"		"1"
 		"enabled"		"1"	
-		"HealthBonusPosAdj"	"6000" //10
+		"HealthBonusPosAdj"	"6000" //10, 6000
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
@@ -200,76 +200,10 @@
 		"xpos"			"9999" // omp -- fix glitch where this is visible in spectator view.
 		"ypos"			"9999"
 		"zpos"			"0"
-		"wide"			"32"
-		"tall"			"36"
+		"wide"			"0" //32
+		"tall"			"36" //36
 		"visible"		"1"
 		"enabled"		"1"	
-		
-		"MoveableIconBG"
-		{
-			"ControlName"	"CIconPanel"
-			"fieldName"		"MoveableIconBG"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"0"
-			"wide"			"10"
-			"tall"			"36"
-			"visible"		"1"
-			"enabled"		"1"
-			"icon"			"obj_status_alert_background_tall_nocolor"
-			"iconColor"		"HudBlack"
-			"scaleImage"	"1"
-		}
-		
-		"MoveableIcon"
-		{
-			"ControlName"	"CIconPanel"
-			"fieldName"		"MoveableIcon"
-			"xpos"			"5"
-			"ypos"			"7"
-			"zpos"			"11"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"icon"			"obj_status_sentrygun_1"
-			"drawcolor"		"ProgressOffWhite"
-			"scaleImage"	"1"
-		}
-		"MoveableSymbolIcon"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MoveableSymbolIcon"
-			"xpos"			"16"
-			"ypos"			"-2"
-			"zpos"			"12"
-			"wide"			"16"
-			"tall"			"8"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/eng_sel_item_movable"
-			"drawcolor"		"ProgressOffWhite"
-			"scaleImage"	"1"
-		}
-
-		"MoveableKeyLabel"
-		{	
-			"ControlName"		"Label"
-			"fieldName"		"MoveableKeyLabel"
-			"font"			"Futura9"
-			"xpos"			"0"
-			"ypos"			"27"
-			"zpos"			"1"
-			"wide"			"640"
-			"tall"			"9"
-			"autoResize"		"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%movekey%"
-			"textAlignment"		"North"
-			"dulltext"		"0"
-			"brighttext"		"0"
-		}	
+	
 	}
 }
