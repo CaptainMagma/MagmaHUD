@@ -371,7 +371,7 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "Spectators"
-        "font"          "Futura8ID" //Futura8
+        "font"          "Futura8" //Futura8
         "fgcolor"       "255 255 255 255"
         "labelText"     "%spectators%"
         "textAlignment"     "west"
