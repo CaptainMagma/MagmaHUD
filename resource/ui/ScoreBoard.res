@@ -7,7 +7,7 @@
         "xpos"          "c-320"
         "ypos"          "0"
         "wide"          "f0"
-        "tall"          "480"
+        "tall"          "480" //480
         "autoResize"        "0"
         "pinCorner"     "0"
         "visible"       "1"
@@ -371,7 +371,7 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "Spectators"
-        "font"          "Futura8" //Futura8
+        "font"          "Futura8ID" //Futura8
         "fgcolor"       "255 255 255 255"
         "labelText"     "%spectators%"
         "textAlignment"     "west"
@@ -441,7 +441,32 @@
         "ControlName"       "CExLabel"
         "fieldName"     "PlayerNameLabel"
         "xpos"          "999999"
-    }                           
+    }
+	"MapName"
+	{
+		"ControlName"       "CExLabel"
+		"fieldName"     "mapname"
+		"font"          "Futura9" //Futura8
+		"fgcolor"       "255 255 255 255"
+		"labelText"     "%mapname%"
+		"textAlignment"     "west" //west
+		"textinsetx"        "0" //20
+		"xpos"          "23" //c150
+		"ypos"          "25" //r65
+		"zpos"          "2"
+		"wide"          "320"
+		"tall"          "20"
+		"autoResize"        "0"
+		"pinCorner"     "0"
+		"visible"       "1" [$WIN32]
+		"enabled"       "1"
+
+		if_mvm
+		{
+		"xpos"          "c-12"
+				"ypos"          "r65"
+		}
+	}
     "HorizontalLine"
     {
         "ControlName"       "ImagePanel"
@@ -1213,7 +1238,7 @@
             "visible"   "1"
             "enabled"   "1"
         }
-	"MapLabel"
+		"MapLabel"
         {
         	"ControlName"       "CExLabel"
         	"fieldName"     "maplabel"
@@ -1237,37 +1262,14 @@
 			"xpos"          "c-30"
             		"ypos"          "r65"
         	}
-        }  
-        "MapName"
-        {
-        	"ControlName"       "CExLabel"
-        	"fieldName"     "mapname"
-        	"font"          "Futura9" //Futura8
-        	"fgcolor"       "255 255 255 255"
-        	"labelText"     "%mapname%"
-        	"textAlignment"     "west" //west
-        	"textinsetx"        "0" //20
-        	"xpos"          "23" //c150
-        	"ypos"          "25" //r65
-        	"zpos"          "2"
-        	"wide"          "320"
-        	"tall"          "20"
-        	"autoResize"        "0"
-        	"pinCorner"     "0"
-        	"visible"       "1" [$WIN32]
-        	"enabled"       "1"
-
-        	if_mvm
-        	{
-			"xpos"          "c-12"
-            		"ypos"          "r65"
-        	}
-        }   
+        }     
         "GameType"
         {
             "ControlName"   "CExLabel"
             "fieldName" "gametype"
             "xpos"      "999999"
+			"visible"		"0"
+			"enabled"		"0"
         }                               
     }               
     
