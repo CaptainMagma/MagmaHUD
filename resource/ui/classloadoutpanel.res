@@ -473,4 +473,98 @@
 		"bgcolor_override"		"69 64 63 255"
 		"PaintBackgroundType"	"2"
 	}
+
+	"CharacterLoadoutButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CharacterLoadoutButton"
+		"labelText"		""
+		"xpos"			"c-90" //c-25
+		"ypos"			"c95" //c90
+		"zpos"			"2"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"Command"		"characterloadout"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"	"40 40 40 255"
+		"armedBgColor_override"		"35 35 35 255"
+		"depressedBgColor_override"	"40 40 40 255"
+		"defaultFgColor_override"	"230 230 230 255"
+		"armedFgColor_override" 	"230 230 230 255"
+		"depressedFgColor_override" "38 38 38 255"
+		"border_default"			"BorderButton"
+		"border_armed"				"BorderButtonHover"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"1"
+			"wide"			"17"
+			"tall"			"17"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_items"
+		}
+	}
+
+	"TauntLoadoutButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"TauntLoadoutButton"
+		"labelText"		""
+		"xpos"			"c55" //c2
+		"ypos"			"c95"
+		"zpos"			"2"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"Command"		"tauntloadout"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"	"40 40 40 255"
+		"armedBgColor_override"		"35 35 35 255"
+		"depressedBgColor_override"	"40 40 40 255"
+		"defaultFgColor_override"	"230 230 230 255"
+		"armedFgColor_override" 	"230 230 230 255"
+		"depressedFgColor_override" "38 38 38 255"
+		"border_default"			"BorderButton"
+		"border_armed"				"BorderButtonHover"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"1"
+			"wide"			"17"
+			"tall"			"17"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"../hud/ico_reel"
+		}
+	}
 }
