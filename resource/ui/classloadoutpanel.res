@@ -326,7 +326,7 @@
 		"tall"			"240"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"south"
@@ -479,7 +479,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterLoadoutButton"
 		"labelText"		""
-		"xpos"			"c-90" //c-25
+		"xpos"			"c-25" //c-90
 		"ypos"			"c95" //c90
 		"zpos"			"2"
 		"wide"			"25"
@@ -526,7 +526,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TauntLoadoutButton"
 		"labelText"		""
-		"xpos"			"c55" //c2
+		"xpos"			"c2" //c55
 		"ypos"			"c95"
 		"zpos"			"2"
 		"wide"			"25"
